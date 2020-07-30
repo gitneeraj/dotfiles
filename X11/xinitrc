@@ -1,0 +1,5 @@
+exec xrdb -load $XDG_CONFIG_HOME/X11/xresources
+exec compton --config $XDG_CONFIG_HOME/compton.conf &
+exec nitrogen --restore &
+
+exec dwm 2> ~/.dwm.log

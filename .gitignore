@@ -1,0 +1,32 @@
+!dunst/
+!dwm/
+!i3/
+!picom/
+!polybar/
+!ranger/
+!rofi/
+!X11
+!zsh
+!compton.conf
+
+npm/
+BraveSoftware/
+Code - OSS/
+configstore/
+dconf/
+google-chrome/
+gtk-2.0/
+gtk-3.0/
+htop/
+inkscape/
+java/
+JetBrains/
+MongoDB Compass/
+Slack/
+transmission/
+QtProject.conf
+zoomus.conf
+yay/
+VirtualBox/
+autostart/
+pulse/

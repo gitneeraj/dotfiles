@@ -1,0 +1,85 @@
+! Dracula Xresources palette
+*.foreground: #F8F8F2
+*.background: #282A36
+*.color0:     #1d1f21
+*.color8:     #b6b6b6
+*.color1:     #FF5555
+*.color9:     #FF6E67
+*.color2:     #50FA7B
+*.color10:    #5AF78E
+*.color3:     #F1FA8C
+*.color11:    #F4F99D
+*.color4:     #BD93F9
+*.color12:    #CAA9FA
+*.color5:     #FF79C6
+*.color13:    #FF92D0
+*.color6:     #8BE9FD
+*.color14:    #9AEDFE
+*.color7:     #BFBFBF
+*.color15:    #E6E6E6
+
+! DWM colors
+dwm.foreground: #F8F8F2
+dwm.background: #282A36
+dwm.color0:     #1d1f21
+dwm.color8:     #b6b6b6
+dwm.color1:     #FF5555
+dwm.color9:     #FF6E67
+dwm.color2:     #50FA7B
+dwm.color10:    #5AF78E
+dwm.color3:     #F1FA8C
+dwm.color11:    #F4F99D
+dwm.color4:     #BD93F9
+dwm.color12:    #CAA9FA
+dwm.color5:     #FF79C6
+dwm.color13:    #FF92D0
+dwm.color6:     #8BE9FD
+dwm.color14:    #9AEDFE
+dwm.color7:     #BFBFBF
+dwm.color15:    #E6E6E6
+
+*.font:	Roboto Mono Medium for Powerline:style=Medium:size=10:antialias=true:autohint=true;
+*.alpha: 0.98
+*.cursorColor: #FF00FF
+
+URxvt.font: xft:Roboto Mono Medium for Powerline:style=Medium:size=10, \
+		xft:DejaVu Sans Mono for Powerline:style=Book:size=10
+
+URxvt.cursorBlink: true
+URxvt.cursorColor: #FF00FF
+
+URxvt.scrollBar: false
+
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+URxvt*skipBuiltinGlyphs: false
+
+URxvt.letterSpace: 0
+
+! Setting transparency and background                                                                                                                                       
+URxvt*depth:      32                                                                                                                                                        
+URxvt.background: [60]#282A36   
+
+URxvt*foreground: #F8F8F2
+urxvt*fading:           10
+
+urxvt*fadeColor:        #000000
+
+URxvt.perl-ext-common: default,matcher,clipboard,resize-font
+
+! clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+
+! URL matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1

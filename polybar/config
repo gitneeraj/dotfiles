@@ -67,8 +67,8 @@ font-2 = siji:pixelsize=10;1
 font-3 = Font Awesome 5 Free,Font Awesome 5 Free Solid:style=Solid:pixelsize=10;1
 font-4 = Font Awesome 5 Brands,Font Awesome 5 Brands Regular:style=Regular:pixelsize=10;1
 
-modules-left = bspwm i3
-modules-center = mpd xwindow
+modules-left = bspwm i3 dwm
+modules-center = xwindow
 modules-right = backlight-acpi pulseaudio filesystem memory cpu wlan vpn-networkmanager-status eth battery temperature date powermenu
 
 tray-position = right
@@ -78,7 +78,7 @@ tray-padding = 2
 ;wm-restack = bspwm
 ;wm-restack = i3
 
-;override-redirect = true
+override-redirect = false
 
 ;scroll-up = bspwm-desknext
 ;scroll-down = bspwm-deskprev
@@ -148,6 +148,82 @@ label-empty-padding = 2
 
 ; Separator in between workspaces
 ; label-separator = |
+
+[module/dwm]
+type = internal/dwm
+format = <label-tags> <label-layout> <label-floating>
+; Path to dwm socket (default: /tmp/dwm.sock)
+; socket-path = /tmp/dwm.sock
+
+; Left-click to view tag, right-click to toggle tag view
+enable-tags-click = true
+; Left-click to set secondary layout, right-click to switch to previous layout
+enable-layout-click = true
+; Scroll to cycle between available layouts
+enable-layout-scroll = false
+; Wrap when scrolling and reaching begining/end of layouts
+layout-scroll-wrap = false
+; Reverse scroll direction
+layout-scroll-reverse = false
+
+; If enable-layout-click = true, clicking the layout symbol will switch to this layout
+secondary-layout-symbol = [M]
+
+; Separator in between shown tags
+; label-separator = |
+
+; Title of currently focused window
+; Available tokens:
+;   %title%
+; label-title = %title%
+; label-title-padding = 2
+; label-title-forefround = ${colors.primary}
+; label-title-maxlen = 30
+
+; Symbol of current layout
+; Available tokens:
+;   %symbol%
+label-layout = %symbol%
+label-layout-padding = 2
+label-layout-foreground = ${colors.background}
+label-layout-background = ${colors.background-alt}
+
+; Text to show when currently focused window is floating
+label-floating = F
+
+; States: focused, unfocused, visible, urgent, empty
+; Available tokens:
+;   %name%
+
+; focused = Selected tag on focused monitor
+label-focused = %name%
+label-focused-background = ${colors.background-alt}
+label-focused-foreground = ${colors.background}
+label-focused-underline= ${colors.green}
+label-focused-padding = 2
+
+; unfocused = Unselected tag on unselected monitor
+label-unfocused = %name%
+label-unfocused-padding = 2
+label-unfocused-background = ${colors.background}
+label-unfocused-underline= ${colors.red}
+
+; visible = Unselected tag, but occupied tag on any monitor
+label-visible = %name%
+label-visible-background = ${colors.background}
+; label-visible-underline = ${self.label-focused-underline}
+label-visible-padding = ${self.label-focused-padding}
+
+; urgent = Unselected tag with window that has urgency hint set
+label-urgent = %name%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+; empty = Unselected and unoccupied tag
+; This can be set to an empty string to hide empty tags
+label-empty = 
+label-empty-background = ${colors.primary}
+label-empty-padding = 2
 
 [module/i3]
 type = internal/i3
@@ -384,8 +460,8 @@ format-charging = <animation-charging> <label-charging>
 
 format-discharging = <ramp-capacity> <label-discharging>
 
-format-full-prefix = " "
-format-full-prefix-foreground = ${colors.foreground-alt}
+format-full-prefix =  
+format-full-prefix-foreground = ${colors.green}
 
 ramp-capacity-0 = 
 ramp-capacity-0-foreground = ${colors.red}
@@ -463,7 +539,7 @@ screenchange-reload = true
 ;pseudo-transparency = false
 
 [global/wm]
-margin-top = 5
+margin-top = 4
 margin-bottom = 5
 
 ; vim:ft=dosini

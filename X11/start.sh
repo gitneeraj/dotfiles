@@ -1,7 +1,9 @@
 #!/bin/bash
-exec dwmblocks &
-exec picom --config $XDG_CONFIG_HOME/compton.conf &
+#exec dwmblocks &
+exec picom &
 exec nitrogen --restore &
+exec $XDG_CONFIG_HOME/polybar/launch.sh &
+exec nm-applet &
 
 export AWT_TOOLKIT=MToolkit
 #exec dwm

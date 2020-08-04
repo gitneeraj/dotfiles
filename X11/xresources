@@ -19,27 +19,15 @@
 *.color15:    #E6E6E6
 
 ! DWM colors
-dwm.foreground: #F8F8F2
-dwm.background: #282A36
-dwm.color0:     #1d1f21
-dwm.color8:     #b6b6b6
-dwm.color1:     #FF5555
-dwm.color9:     #FF6E67
-dwm.color2:     #50FA7B
-dwm.color10:    #5AF78E
-dwm.color3:     #F1FA8C
-dwm.color11:    #F4F99D
-dwm.color4:     #BD93F9
-dwm.color12:    #CAA9FA
-dwm.color5:     #FF79C6
-dwm.color13:    #FF92D0
-dwm.color6:     #8BE9FD
-dwm.color14:    #9AEDFE
-dwm.color7:     #BFBFBF
-dwm.color15:    #E6E6E6
+dwm.normbordercolor: #282A36
+dwm.normbgcolor: #282A36
+dwm.normfgcolor: #F8F8F2
+dwm.selbordercolor: #8CFFB2
+dwm.selbgcolor: #282A36
+dwm.selfgcolor: #F8F8F2
 
 *.font:	Roboto Mono Medium for Powerline:style=Medium:size=10:antialias=true:autohint=true;
-*.alpha: 0.98
+*.alpha: 1.0
 *.cursorColor: #FF00FF
 
 URxvt.font: xft:Roboto Mono Medium for Powerline:style=Medium:size=10, \

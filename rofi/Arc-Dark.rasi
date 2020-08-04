@@ -5,8 +5,8 @@
  ***********************************************/
 
 * {
-    selected-normal-foreground:  rgba ( 249, 249, 249, 100 % );
-    foreground:                  rgba ( 196, 203, 212, 100 % );
+    selected-normal-foreground:  #282A36;
+    foreground:                  rgba ( 255, 255, 255, 100% );
     normal-foreground:           @foreground;
     alternate-normal-background: rgba ( 64, 69, 82, 59 % );
     red:                         rgba ( 220, 50, 47, 100 % );
@@ -18,12 +18,13 @@
     lightbg:                     rgba ( 238, 232, 213, 100 % );
     selected-active-foreground:  rgba ( 249, 249, 249, 100 % );
     alternate-active-background: rgba ( 75, 81, 96, 89 % );
-    background:                  rgba ( 45, 48, 59, 80 % );
+    background:                  rgba ( 40, 42, 54, 80% );
     alternate-normal-foreground: @foreground;
-    normal-background:           @background;
+    normal-background:           rgba ( 40, 42, 54, 80% );
+    normal-alternate-background: rgba ( 40, 42, 54, 50% );
     lightfg:                     rgba ( 88, 104, 117, 100 % );
-    selected-normal-background:  rgba ( 64, 132, 214, 100 % );
-    border-color:                rgba ( 124, 131, 137, 100 % );
+    selected-normal-background:  rgba ( 140, 255, 178, 60%);
+    border-color:                rgba ( 140, 255, 178, 100%);
     spacing:                     2;
     separatorcolor:              rgba ( 29, 31, 33, 100 % );
     urgent-background:           rgba ( 29, 31, 33, 17 % );
@@ -37,7 +38,7 @@
 }
 #window {
     background-color: @background;
-    border:           0;
+    border:           2px;
     padding:          10;
     font:             @font;
 }
@@ -90,7 +91,7 @@
     text-color:       @selected-active-foreground;
 }
 #element.alternate.normal {
-    background-color: @normal-background;
+    background-color: @normal-alternate-background;
     text-color:       @alternate-normal-foreground;
 }
 #element.alternate.urgent {

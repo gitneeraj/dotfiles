@@ -16,3 +16,4 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 
 export DENO_INSTALL="$XDG_CONFIG_HOME"/deno
 export PATH="$DENO_INSTALL/bin:$PATH"
+export PF_ASCII=artix

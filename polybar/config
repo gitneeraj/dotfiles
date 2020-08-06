@@ -34,6 +34,7 @@ orange = #FF8000
 yellow = #FFFF00
 light-green = #80FF00
 green = #00FF00
+wm-border-color = #8CFFB2
 
 [bar/basic]
 ;monitor = ${env:MONITOR:HDMI-1}
@@ -59,7 +60,7 @@ padding-left = 0
 padding-right = 2
 
 module-margin-left = 1
-module-margin-right = 2
+module-margin-right = 5
 
 font-0 = fixed:pixelsize=11;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
@@ -151,7 +152,7 @@ label-empty-padding = 2
 
 [module/dwm]
 type = internal/dwm
-format = <label-tags> <label-layout> <label-floating>
+format = <label-tags> <label-layout>
 ; Path to dwm socket (default: /tmp/dwm.sock)
 ; socket-path = /tmp/dwm.sock
 
@@ -185,8 +186,8 @@ secondary-layout-symbol = [M]
 ;   %symbol%
 label-layout = %symbol%
 label-layout-padding = 2
-label-layout-foreground = ${colors.background}
-label-layout-background = ${colors.background-alt}
+label-layout-foreground = ${colors.wm-border-color}
+; label-layout-background = ${colors.background-alt}
 
 ; Text to show when currently focused window is floating
 label-floating = F
@@ -197,21 +198,21 @@ label-floating = F
 
 ; focused = Selected tag on focused monitor
 label-focused = %name%
-label-focused-background = ${colors.background-alt}
+label-focused-background = ${colors.wm-border-color}
 label-focused-foreground = ${colors.background}
-label-focused-underline= ${colors.green}
+; label-focused-overline= ${colors.background}
 label-focused-padding = 2
 
 ; unfocused = Unselected tag on unselected monitor
 label-unfocused = %name%
 label-unfocused-padding = 2
 label-unfocused-background = ${colors.background}
-label-unfocused-underline= ${colors.red}
+label-unfocused-overline= ${colors.red}
 
 ; visible = Unselected tag, but occupied tag on any monitor
 label-visible = %name%
 label-visible-background = ${colors.background}
-; label-visible-underline = ${self.label-focused-underline}
+; label-visible-overline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Unselected tag with window that has urgency hint set

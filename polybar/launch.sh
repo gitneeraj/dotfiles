@@ -6,7 +6,7 @@ killall -q polybar
 # polybar-msg cmd quit
 
 # needed for polybar-dwm-module
-sleep 1
+sleep 3
 # Launch bar1 and bar2
 echo "---" | tee -a /tmp/polybar1.log
 polybar basic >>/tmp/polybar1.log 2>&1 &

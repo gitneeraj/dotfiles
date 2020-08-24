@@ -1,0 +1,318 @@
+Looking for git in: git
+Using git 2.27.0 from git
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/brandine
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git check-ignore -v -z --stdin
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/cletus
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-852_fix_Radaris_target
+> git rev-parse --symbolic-full-name neeraj/GTD-852_fix_Radaris_target@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-852_fix_Radaris_target'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/goofball
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/mojo-the-helper-monkey
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-852_fix_Radaris_target
+> git rev-parse --symbolic-full-name neeraj/GTD-852_fix_Radaris_target@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-852_fix_Radaris_target'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/todd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Personal/opensource/expirements/dwm-6.2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :config.def.h
+> git ls-files --stage -- /home/neeraj/Personal/opensource/expirements/dwm-6.2/config.def.h
+> git cat-file -s 87cf01826de5554f967ef5a3473da8e56a349b52
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/neeraj/Personal/opensource/expirements/dwm-6.2/config.def.h
+> git cat-file -s 87cf01826de5554f967ef5a3473da8e56a349b52
+> git show --textconv :config.def.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/neeraj/Personal/opensource/expirements/dwm-6.2/config.def.h
+> git symbolic-ref --short HEAD
+> git cat-file -s 10fa09dcd7eb6e614e9b4c9702d0ef34ffb52fa2
+> git rev-parse master
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show --textconv :config.def.h
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/containers/dashboard/Overview.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/containers/dashboard/Overview.jsx
+> git cat-file -s 9915b66a8ca8727bf306aa029e7ef5e108f7aee6
+> git show --textconv :src/components/dashboard/RecentActivity.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/components/dashboard/RecentActivity.jsx
+> git cat-file -s 3c5dddee5787c70f0deab07bd32cb7105577195c
+> git check-ignore -v -z --stdin
+> git show --textconv :src/components/dashboard/RecentActivityCategoryItem.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/components/dashboard/RecentActivityCategoryItem.jsx
+> git cat-file -s e8d0116416a826d8a7a64e135b95d1586fb76273
+> git show --textconv :src/components/dashboard/RecentActivity.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/components/dashboard/RecentActivity.jsx
+> git cat-file -s 3c5dddee5787c70f0deab07bd32cb7105577195c
+> git show --textconv :src/components/dashboard/RecentActivityCategoryItem.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/components/dashboard/RecentActivityCategoryItem.jsx
+> git cat-file -s e8d0116416a826d8a7a64e135b95d1586fb76273
+> git show --textconv :src/constants/site.constants.js
+> git ls-files --stage -- /home/neeraj/Work/todd/src/constants/site.constants.js
+> git cat-file -s 2fb7b5c297bced96e1ff4b7b52dbb896776b9333
+> git check-ignore -v -z --stdin
+> git show --textconv :src/components/dashboard/RecentActivityCategoryItem.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/components/dashboard/RecentActivityCategoryItem.jsx
+> git cat-file -s e8d0116416a826d8a7a64e135b95d1586fb76273
+> git show --textconv :src/components/dashboard/RecentActivity.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/components/dashboard/RecentActivity.jsx
+> git cat-file -s 3c5dddee5787c70f0deab07bd32cb7105577195c
+> git show --textconv :src/components/dashboard/RecentActivityCategoryItem.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/components/dashboard/RecentActivityCategoryItem.jsx
+> git cat-file -s e8d0116416a826d8a7a64e135b95d1586fb76273
+> git show --textconv :src/components/dashboard/RecentActivity.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/components/dashboard/RecentActivity.jsx
+> git cat-file -s 3c5dddee5787c70f0deab07bd32cb7105577195c
+> git show --textconv :src/components/dashboard/RecentActivityCategoryItem.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/components/dashboard/RecentActivityCategoryItem.jsx
+> git cat-file -s e8d0116416a826d8a7a64e135b95d1586fb76273
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/containers/dashboard/Activity.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/containers/dashboard/Activity.jsx
+> git cat-file -s 172aa4f70aa7eedef79b4859653553b4ac422442
+> git show --textconv :src/components/dashboard/ActivityCategoryItem.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/components/dashboard/ActivityCategoryItem.jsx
+> git cat-file -s 8b25352a5498c6c25fac082f2dd0c70f1a3dd600
+> git show --textconv :src/components/dashboard/ActivitySiteItem.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/components/dashboard/ActivitySiteItem.jsx
+> git cat-file -s 5af08a37d919066fc6b5db484578a8295086f871
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git show --textconv :src/constants/site.constants.js
+> git ls-files --stage -- /home/neeraj/Work/todd/src/constants/site.constants.js
+> git cat-file -s 2fb7b5c297bced96e1ff4b7b52dbb896776b9333
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-857_Sort_Recent_Activity_lastest_first
+> git rev-parse neeraj/GTD-857_Sort_Recent_Activity_lastest_first
+> git rev-parse --symbolic-full-name neeraj/GTD-857_Sort_Recent_Activity_lastest_first@{u}
+> git rev-parse --symbolic-full-name neeraj/GTD-857_Sort_Recent_Activity_lastest_first@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-857_Sort_Recent_Activity_lastest_first'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+fatal: no upstream configured for branch 'neeraj/GTD-857_Sort_Recent_Activity_lastest_first'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-857_Sort_Recent_Activity_lastest_first
+> git rev-parse neeraj/GTD-857_Sort_Recent_Activity_lastest_first
+> git rev-parse --symbolic-full-name neeraj/GTD-857_Sort_Recent_Activity_lastest_first@{u}
+> git rev-parse --symbolic-full-name neeraj/GTD-857_Sort_Recent_Activity_lastest_first@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-857_Sort_Recent_Activity_lastest_first'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+fatal: no upstream configured for branch 'neeraj/GTD-857_Sort_Recent_Activity_lastest_first'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git show --textconv :src/containers/dashboard/Overview.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/containers/dashboard/Overview.jsx
+> git cat-file -s 9915b66a8ca8727bf306aa029e7ef5e108f7aee6
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/neeraj/Work/todd/src/containers/dashboard/Overview.jsx
+> git show --textconv :src/containers/dashboard/Overview.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/containers/dashboard/Overview.jsx
+> git cat-file -s 9915b66a8ca8727bf306aa029e7ef5e108f7aee6

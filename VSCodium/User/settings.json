@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.fontFamily": "'Operator Mono Medium','Font Awesome 5 Brands Regular','Font Awesome 5 Free Solid','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 15,
+    "workbench.iconTheme": "vscode-icons",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

@@ -1,0 +1,69 @@
+Looking for git in: git
+Using git 2.27.0 from git
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/brandine
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/cletus
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-852_fix_Radaris_target
+> git rev-parse --symbolic-full-name neeraj/GTD-852_fix_Radaris_target@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-852_fix_Radaris_target'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/goofball
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/mojo-the-helper-monkey
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/todd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse v2020.44.0/package.json
+> git rev-parse --symbolic-full-name v2020.44.0/package.json@{u}
+fatal: no upstream configured for branch 'v2020.44.0/package.json'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Personal/opensource/expirements/dwm-6.2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :env/privacymate_test/ecs_cluster/ecs_brandine.tf
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/ecs_brandine.tf
+> git cat-file -s 5dd0d3c57472178151fa2e42749f2648fda4f126
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin

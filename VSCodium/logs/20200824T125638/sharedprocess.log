@@ -1,0 +1,55 @@
+[2020-08-24 12:56:41.677] [sharedprocess] [info] main {"machineId":"94f186d31841a2c02de970aecc969b3d098c2f943792d9aa37c44b41ee080c49","windowId":2}
+[2020-08-24 12:57:21.684] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-08-24 12:57:22.369] [sharedprocess] [info] Installing extension: dbaeumer.vscode-eslint
+[2020-08-24 12:57:22.370] [sharedprocess] [info] Downloaded extension: dbaeumer.vscode-eslint /home/neeraj/.config/VSCodium/CachedExtensionVSIXs/dbaeumer.vscode-eslint-2.1.3
+[2020-08-24 12:57:22.402] [sharedprocess] [info] Extracted extension to /home/neeraj/.vscode-oss/extensions/.dbaeumer.vscode-eslint-2.1.3: dbaeumer.vscode-eslint
+[2020-08-24 12:57:22.402] [sharedprocess] [info] Renamed to /home/neeraj/.vscode-oss/extensions/dbaeumer.vscode-eslint-2.1.3
+[2020-08-24 12:57:22.403] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint
+[2020-08-24 12:57:22.475] [sharedprocess] [info] Extensions installed successfully: dbaeumer.vscode-eslint
+[2020-08-24 12:57:34.762] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2020-08-24 12:57:34.765] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /home/neeraj/.config/VSCodium/CachedExtensionVSIXs/esbenp.prettier-vscode-5.1.3
+[2020-08-24 12:57:35.044] [sharedprocess] [info] Extracted extension to /home/neeraj/.vscode-oss/extensions/.esbenp.prettier-vscode-5.1.3: esbenp.prettier-vscode
+[2020-08-24 12:57:35.044] [sharedprocess] [info] Renamed to /home/neeraj/.vscode-oss/extensions/esbenp.prettier-vscode-5.1.3
+[2020-08-24 12:57:35.045] [sharedprocess] [info] Installation completed. esbenp.prettier-vscode
+[2020-08-24 12:57:35.103] [sharedprocess] [info] Extensions installed successfully: esbenp.prettier-vscode
+[2020-08-24 12:57:40.534] [sharedprocess] [info] Installing extension: hashicorp.terraform
+[2020-08-24 12:57:40.536] [sharedprocess] [info] Downloaded extension: hashicorp.terraform /home/neeraj/.config/VSCodium/CachedExtensionVSIXs/hashicorp.terraform-2.1.1
+[2020-08-24 12:57:40.951] [sharedprocess] [info] Extracted extension to /home/neeraj/.vscode-oss/extensions/.hashicorp.terraform-2.1.1: hashicorp.terraform
+[2020-08-24 12:57:40.951] [sharedprocess] [info] Renamed to /home/neeraj/.vscode-oss/extensions/hashicorp.terraform-2.1.1
+[2020-08-24 12:57:40.952] [sharedprocess] [info] Installation completed. hashicorp.terraform
+[2020-08-24 12:57:41.215] [sharedprocess] [info] Extensions installed successfully: hashicorp.terraform
+[2020-08-24 12:57:52.148] [sharedprocess] [info] Installing extension: vscode-icons-team.vscode-icons
+[2020-08-24 12:57:52.151] [sharedprocess] [info] Downloaded extension: vscode-icons-team.vscode-icons /home/neeraj/.config/VSCodium/CachedExtensionVSIXs/vscode-icons-team.vscode-icons-10.2.0
+[2020-08-24 12:57:52.892] [sharedprocess] [info] Extracted extension to /home/neeraj/.vscode-oss/extensions/.vscode-icons-team.vscode-icons-10.2.0: vscode-icons-team.vscode-icons
+[2020-08-24 12:57:52.892] [sharedprocess] [info] Renamed to /home/neeraj/.vscode-oss/extensions/vscode-icons-team.vscode-icons-10.2.0
+[2020-08-24 12:57:52.893] [sharedprocess] [info] Installation completed. vscode-icons-team.vscode-icons
+[2020-08-24 12:57:52.967] [sharedprocess] [info] Extensions installed successfully: vscode-icons-team.vscode-icons
+[2020-08-24 12:58:07.091] [sharedprocess] [info] Installing extension: zhuangtongfa.material-theme
+[2020-08-24 12:58:07.093] [sharedprocess] [info] Downloaded extension: zhuangtongfa.material-theme /home/neeraj/.config/VSCodium/CachedExtensionVSIXs/zhuangtongfa.material-theme-3.8.5
+[2020-08-24 12:58:07.265] [sharedprocess] [info] Extracted extension to /home/neeraj/.vscode-oss/extensions/.zhuangtongfa.material-theme-3.8.5: zhuangtongfa.material-theme
+[2020-08-24 12:58:07.265] [sharedprocess] [info] Renamed to /home/neeraj/.vscode-oss/extensions/zhuangtongfa.material-theme-3.8.5
+[2020-08-24 12:58:07.266] [sharedprocess] [info] Installation completed. zhuangtongfa.material-theme
+[2020-08-24 12:58:07.340] [sharedprocess] [info] Extensions installed successfully: zhuangtongfa.material-theme
+[2020-08-24 12:58:37.433] [sharedprocess] [info] Installing extension: eamodio.gitlens
+[2020-08-24 12:58:37.436] [sharedprocess] [info] Downloaded extension: eamodio.gitlens /home/neeraj/.config/VSCodium/CachedExtensionVSIXs/eamodio.gitlens-10.2.1
+[2020-08-24 12:58:37.779] [sharedprocess] [info] Extracted extension to /home/neeraj/.vscode-oss/extensions/.eamodio.gitlens-10.2.1: eamodio.gitlens
+[2020-08-24 12:58:37.779] [sharedprocess] [info] Renamed to /home/neeraj/.vscode-oss/extensions/eamodio.gitlens-10.2.1
+[2020-08-24 12:58:37.786] [sharedprocess] [info] Installation completed. eamodio.gitlens
+[2020-08-24 12:58:37.853] [sharedprocess] [info] Extensions installed successfully: eamodio.gitlens
+[2020-08-24 13:00:06.481] [sharedprocess] [info] Installing the extension: burkeholland.simple-react-snippets
+[2020-08-24 13:00:06.946] [sharedprocess] [info] Extracted extension to /home/neeraj/.vscode-oss/extensions/.burkeholland.simple-react-snippets-1.2.3: burkeholland.simple-react-snippets
+[2020-08-24 13:00:06.946] [sharedprocess] [info] Renamed to /home/neeraj/.vscode-oss/extensions/burkeholland.simple-react-snippets-1.2.3
+[2020-08-24 13:00:06.946] [sharedprocess] [info] Installation completed. burkeholland.simple-react-snippets
+[2020-08-24 13:00:07.002] [sharedprocess] [info] Successfully installed the extension: burkeholland.simple-react-snippets
+[2020-08-24 13:00:40.191] [sharedprocess] [info] Installing extension: ms-python.python
+[2020-08-24 13:00:40.196] [sharedprocess] [info] Downloaded extension: ms-python.python /home/neeraj/.config/VSCodium/CachedExtensionVSIXs/ms-python.python-2020.8.101144
+[2020-08-24 13:00:42.444] [sharedprocess] [info] Extracted extension to /home/neeraj/.vscode-oss/extensions/.ms-python.python-2020.8.101144: ms-python.python
+[2020-08-24 13:00:42.444] [sharedprocess] [info] Renamed to /home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144
+[2020-08-24 13:00:42.448] [sharedprocess] [info] Installation completed. ms-python.python
+[2020-08-24 13:00:42.543] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2020-08-24 13:00:52.528] [sharedprocess] [info] Uninstalling extension: ms-python.python
+[2020-08-24 13:00:52.687] [sharedprocess] [info] Successfully uninstalled extension: ms-python.python
+[2020-08-24 13:00:54.390] [sharedprocess] [info] Installing extension: ms-python.python
+[2020-08-24 13:00:54.539] [sharedprocess] [info] Downloaded extension: ms-python.python /home/neeraj/.config/VSCodium/CachedExtensionVSIXs/ms-python.python-2020.8.101144
+[2020-08-24 13:00:54.710] [sharedprocess] [info] Removed the extension from uninstalled list: ms-python.python
+[2020-08-24 13:00:54.729] [sharedprocess] [info] Extensions installed successfully: ms-python.python

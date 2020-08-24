@@ -1,0 +1,158 @@
+Looking for git in: git
+Using git 2.27.0 from git
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/brandine
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/cletus
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-852_fix_Radaris_target
+> git rev-parse --symbolic-full-name neeraj/GTD-852_fix_Radaris_target@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-852_fix_Radaris_target'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/goofball
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/mojo-the-helper-monkey
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-852_fix_Radaris_target
+> git rev-parse --symbolic-full-name neeraj/GTD-852_fix_Radaris_target@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-852_fix_Radaris_target'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/todd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse fix_safari_issue_quack_81
+> git rev-parse --symbolic-full-name fix_safari_issue_quack_81@{u}
+fatal: no upstream configured for branch 'fix_safari_issue_quack_81'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Personal/opensource/expirements/dwm-6.2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/containers/dashboard/Activity.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/containers/dashboard/Activity.jsx
+> git cat-file -s 172aa4f70aa7eedef79b4859653553b4ac422442
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :config.mk
+> git ls-files --stage -- /home/neeraj/Personal/opensource/expirements/dwm-6.2/config.mk
+> git cat-file -s 0ad6c3fd69309150b9b750a312324b220488e3a1
+> git show --textconv :Makefile
+> git ls-files --stage -- /home/neeraj/Personal/opensource/expirements/dwm-6.2/Makefile
+> git cat-file -s 0456754563b1f284507a76205d8f6ca1b2042ee7
+> git show --textconv :dwm.c
+> git ls-files --stage -- /home/neeraj/Personal/opensource/expirements/dwm-6.2/dwm.c
+> git cat-file -s 2db3514594143c3277effaeed6faeb9d960520b8
+> git show --textconv :src/containers/dashboard/Activity.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/containers/dashboard/Activity.jsx
+> git cat-file -s 172aa4f70aa7eedef79b4859653553b4ac422442
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :cletus/splinter.py
+> git ls-files --stage -- /home/neeraj/Work/cletus/cletus/splinter.py
+> git cat-file -s f4ac4731ae06e489dd1e975eae8a7e393b4254ea
+> git show --textconv :cletus/splinter.py
+> git ls-files --stage -- /home/neeraj/Work/cletus/cletus/splinter.py
+> git cat-file -s f4ac4731ae06e489dd1e975eae8a7e393b4254ea
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :public/privacymate/config.js
+> git ls-files --stage -- /home/neeraj/Work/todd/public/privacymate/config.js
+> git cat-file -s bbf6bfbc59e7816e8da0fcfc2ef9a014fb566db8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :public/privacymate/config.js
+> git ls-files --stage -- /home/neeraj/Work/todd/public/privacymate/config.js
+> git cat-file -s bbf6bfbc59e7816e8da0fcfc2ef9a014fb566db8

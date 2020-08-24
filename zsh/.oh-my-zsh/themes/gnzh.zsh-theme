@@ -28,10 +28,10 @@ fi
 local return_code="%(?..%F{red}%? ↵%f)"
 
 local user_host="${PR_USER}%F{cyan}@${PR_HOST}"
-local current_dir="%B%F{blue}%~%f%b"
+local current_dir="%B%F{cyan}%~%f%b"
 local git_branch='$(git_prompt_info)'
 
-PROMPT="╭─${user_host} ${current_dir} \$(ruby_prompt_info) ${git_branch}
+PROMPT="╭─ ${current_dir} \$(ruby_prompt_info) ${git_branch}
 ╰─$PR_PROMPT "
 RPROMPT="${return_code}"
 

@@ -1,0 +1,89 @@
+Looking for git in: git
+Using git 2.27.0 from git
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/brandine
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/cletus
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-852_fix_Radaris_target
+> git rev-parse --symbolic-full-name neeraj/GTD-852_fix_Radaris_target@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-852_fix_Radaris_target'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/goofball
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/mojo-the-helper-monkey
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-852_fix_Radaris_target
+> git rev-parse --symbolic-full-name neeraj/GTD-852_fix_Radaris_target@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-852_fix_Radaris_target'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/todd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse fix_safari_issue_quack_81
+> git rev-parse --symbolic-full-name fix_safari_issue_quack_81@{u}
+fatal: no upstream configured for branch 'fix_safari_issue_quack_81'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/components/dashboard/AccountSettingsMenu.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/components/dashboard/AccountSettingsMenu.jsx
+> git cat-file -s a10ee984c3edadb1bf136ab2cadf11177c71fbfa
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Personal/opensource/expirements/dwm-6.2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :config.def.h
+> git ls-files --stage -- /home/neeraj/Personal/opensource/expirements/dwm-6.2/config.def.h
+> git cat-file -s 87cf01826de5554f967ef5a3473da8e56a349b52
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :config.def.h
+> git ls-files --stage -- /home/neeraj/Personal/opensource/expirements/dwm-6.2/config.def.h
+> git cat-file -s 87cf01826de5554f967ef5a3473da8e56a349b52
+> git show --textconv :config.def.h
+> git ls-files --stage -- /home/neeraj/Personal/opensource/expirements/dwm-6.2/config.def.h
+> git cat-file -s 87cf01826de5554f967ef5a3473da8e56a349b52

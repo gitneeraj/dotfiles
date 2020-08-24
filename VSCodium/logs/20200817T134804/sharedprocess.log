@@ -1,0 +1,3 @@
+[2020-08-17 13:48:08.318] [sharedprocess] [info] main {"machineId":"94f186d31841a2c02de970aecc969b3d098c2f943792d9aa37c44b41ee080c49","windowId":2}
+[2020-08-17 13:48:08.336] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/neeraj/.config/VSCodium/User/snippets'
+[2020-08-17 13:48:48.331] [sharedprocess] [info] Starting to clean up unused language packs.

@@ -1,0 +1,101 @@
+Received EPOLLIN event on socket
+Received EPOLLIN event on socket
+[8041:8041:0824/140019.709600:ERROR:vaapi_wrapper.cc(480)] vaInitialize failed: unknown libva error
+[8041:8041:0824/140019.932875:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[7920:8098:0824/140023.276963:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[7920:8098:0824/140023.277091:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[7920:8353:0824/140030.346036:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[7920:8353:0824/140030.346158:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[7920:8353:0824/140030.346252:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[7920:8098:0824/140031.521114:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[7920:8098:0824/140031.521227:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[7920:8099:0824/140035.755540:ERROR:rewards_service_impl.cc(191)] Failed to read file: /home/neeraj/.config/BraveSoftware/Brave-Browser/Default/ledger_state
+[8202:8202:0824/140035.756141:ERROR:ledger_impl.cc(122)] Failed to initialize wallet
+Failed to parse JSON adblock resources: EOF while parsing a value at line 1 column 0
+[7920:7920:0824/140044.516876:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[7920:7920:0824/140044.516956:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 46.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140044.517057:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 46.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140044.517088:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 46.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140044.517111:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 46.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140046.759834:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[7920:7920:0824/140046.759932:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 45.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140046.759977:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 45.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140046.760012:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 45.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140046.765198:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 45.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140047.398788:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[7920:7920:0824/140047.398858:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 44.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140047.398908:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 44.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140047.398952:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 44.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140047.399628:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 44.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140048.026839:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[7920:7920:0824/140048.026889:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 43.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140048.026918:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 43.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140048.026961:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 43.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:7920:0824/140048.026999:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: No tab with id: 43.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+Fontconfig error: Cannot load default config file: No such file: (null)
+[7920:7920:0824/140643.489958:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[7920:7920:0824/140643.490060:ERROR:CONSOLE(1)] "[Shields]: Can't request shields panel data. Error: No tab url specified", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[7920:7920:0824/140643.646461:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Cannot access contents of url "chrome://newtab/". Extension manifest must request permission to access this host.", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[7920:8098:0824/140656.430376:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[7920:8098:0824/140656.430435:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[7920:8098:0824/140656.430457:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[7920:8098:0824/140657.633092:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[7920:8098:0824/140657.633121:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[7920:8098:0824/140657.633130:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+Picked up _JAVA_OPTIONS: -Djava.util.prefs.userRoot=/home/neeraj/.config/java
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+
+(java:1110): dbind-WARNING **: 14:16:53.893: Couldn't register with accessibility bus: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil to field sun.awt.X11.XToolkit.awtAppClassName
+WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2020-08-24 14:16:56,417 [   3340]   WARN - llij.ide.plugins.PluginManager - Resource bundle redefinition for plugin 'com.jetbrains.pycharm.community.customization'. Old value: messages.ActionsBundle, new value: messages.PyBundle 
+2020-08-24 14:17:08,910 [  15833]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2020-08-24 14:17:08,912 [  15835]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
+2020-08-24 14:17:08,912 [  15835]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
+2020-08-24 14:17:08,912 [  15835]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2020-08-24 14:17:09,259 [  16182]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: PythonCore] 
+2020-08-24 14:17:09,260 [  16183]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: PythonCore] 
+2020-08-24 14:17:39,456 [  46379]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  Problems View) or icon jar:file:/usr/share/pycharm/lib/icons.jar!/general/warning.svg 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Some skeletons failed to generate 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._ARC4 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._Salsa20 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._chacha20 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_aes 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_aesni 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_arc2 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_blowfish 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_cast 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_cbc 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_cfb 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_ctr 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_des 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_des3 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_ecb 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_eksblowfish 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_ocb 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Cipher._raw_ofb 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._BLAKE2b 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._BLAKE2s 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._MD2 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._MD4 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._MD5 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._RIPEMD160 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._SHA1 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._SHA224 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._SHA256 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._SHA384 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._SHA512 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._ghash_clmul 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._ghash_portable 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._keccak 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Hash._poly1305 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Math._modexp 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Protocol._scrypt 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.PublicKey._ec_ws 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Util._cpuid_c 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - Crypto.Util._strxor 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - _decimal 
+2020-08-24 14:17:47,231 [  54154]   WARN - .skeletons.PySkeletonRefresher - _tkinter 

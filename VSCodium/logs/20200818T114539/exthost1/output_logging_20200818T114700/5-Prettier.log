@@ -1,0 +1,195 @@
+["INFO" - 11:47:00 AM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 11:47:01 AM] Extension Version: 5.1.3.
+["INFO" - 11:47:02 AM] Loaded module 'prettier@1.19.1' from '/home/neeraj/Work/todd/node_modules/prettier/index.js'
+["INFO" - 11:47:07 AM] Enabling prettier for languages
+[
+  "css",
+  "graphql",
+  "html",
+  "javascript",
+  "javascriptreact",
+  "json",
+  "json5",
+  "jsonc",
+  "less",
+  "markdown",
+  "mdx",
+  "mongo",
+  "postcss",
+  "scss",
+  "typescript",
+  "typescriptreact",
+  "vue",
+  "yaml"
+]
+["INFO" - 11:47:08 AM] Enabling prettier for range supported languages
+[
+  "graphql",
+  "javascript",
+  "javascriptreact",
+  "json",
+  "typescript",
+  "typescriptreact"
+]
+["INFO" - 12:23:37 PM] Formatting /home/neeraj/Work/todd/src/components/dashboard/RecentActivityCategoryItem.jsx
+["INFO" - 12:23:37 PM] Using ignore file (if present) at /home/neeraj/Work/todd/.prettierignore
+["INFO" - 12:23:37 PM] Loaded module 'prettier@1.19.1' from '/home/neeraj/Work/todd/node_modules/prettier/index.js'
+["INFO" - 12:23:37 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:23:37 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 12:23:37 PM] Prettier Options:
+{
+  "filepath": "/home/neeraj/Work/todd/src/components/dashboard/RecentActivityCategoryItem.jsx",
+  "parser": "babel",
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true
+}
+["INFO" - 12:23:37 PM] Formatting completed in 88.300925ms.
+["INFO" - 12:24:35 PM] Formatting /home/neeraj/Work/todd/src/components/dashboard/RecentActivityCategoryItem.jsx
+["INFO" - 12:24:35 PM] Using ignore file (if present) at /home/neeraj/Work/todd/.prettierignore
+["INFO" - 12:24:35 PM] Loaded module 'prettier@1.19.1' from '/home/neeraj/Work/todd/node_modules/prettier/index.js'
+["INFO" - 12:24:35 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:24:35 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 12:24:35 PM] Prettier Options:
+{
+  "filepath": "/home/neeraj/Work/todd/src/components/dashboard/RecentActivityCategoryItem.jsx",
+  "parser": "babel",
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true
+}
+["INFO" - 12:24:35 PM] Formatting completed in 35.914301ms.
+["INFO" - 12:24:48 PM] Formatting /home/neeraj/Work/todd/src/components/dashboard/RecentActivityCategoryItem.jsx
+["INFO" - 12:24:48 PM] Using ignore file (if present) at /home/neeraj/Work/todd/.prettierignore
+["INFO" - 12:24:48 PM] Loaded module 'prettier@1.19.1' from '/home/neeraj/Work/todd/node_modules/prettier/index.js'
+["INFO" - 12:24:48 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:24:48 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 12:24:48 PM] Prettier Options:
+{
+  "filepath": "/home/neeraj/Work/todd/src/components/dashboard/RecentActivityCategoryItem.jsx",
+  "parser": "babel",
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true
+}
+["INFO" - 12:24:48 PM] Formatting completed in 38.101681ms.
+["INFO" - 12:25:12 PM] Formatting /home/neeraj/Work/todd/src/components/dashboard/RecentActivityCategoryItem.jsx
+["INFO" - 12:25:12 PM] Using ignore file (if present) at /home/neeraj/Work/todd/.prettierignore
+["INFO" - 12:25:12 PM] Loaded module 'prettier@1.19.1' from '/home/neeraj/Work/todd/node_modules/prettier/index.js'
+["INFO" - 12:25:12 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:25:12 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 12:25:12 PM] Prettier Options:
+{
+  "filepath": "/home/neeraj/Work/todd/src/components/dashboard/RecentActivityCategoryItem.jsx",
+  "parser": "babel",
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true
+}
+["INFO" - 12:25:12 PM] Formatting completed in 27.873597ms.
+["INFO" - 12:28:05 PM] Formatting /home/neeraj/Work/todd/src/components/dashboard/ActivitySiteItem.jsx
+["INFO" - 12:28:05 PM] Using ignore file (if present) at /home/neeraj/Work/todd/.prettierignore
+["INFO" - 12:28:05 PM] Loaded module 'prettier@1.19.1' from '/home/neeraj/Work/todd/node_modules/prettier/index.js'
+["INFO" - 12:28:05 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:28:05 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 12:28:05 PM] Prettier Options:
+{
+  "filepath": "/home/neeraj/Work/todd/src/components/dashboard/ActivitySiteItem.jsx",
+  "parser": "babel",
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true
+}
+["INFO" - 12:28:05 PM] Formatting completed in 34.722391ms.
+["INFO" - 12:42:41 PM] Formatting /home/neeraj/Work/mongo_queries.json
+["INFO" - 12:42:41 PM] Using ignore file (if present) at undefined
+["INFO" - 12:42:41 PM] Using bundled version of prettier.
+["INFO" - 12:42:41 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 12:42:41 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 12:42:41 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/neeraj/Work/mongo_queries.json",
+  "parser": "json",
+  "rangeEnd": 13805,
+  "rangeStart": 10969
+}
+["ERROR" - 12:42:41 PM] Error formatting document.
+["ERROR" - 12:42:41 PM] Unexpected token (275:1)
+  273 |   },
+  274 |   {"$limit": 1},
+> 275 | ]
+      | ^
+  276 | 
+  277 | 
+  278 | 
+SyntaxError: Unexpected token (275:1)
+  273 |   },
+  274 |   {"$limit": 1},
+> 275 | ]
+      | ^
+  276 | 
+  277 | 
+  278 | 
+	at e (/home/neeraj/.vscode-oss/extensions/esbenp.prettier-vscode-5.1.3/node_modules/prettier/parser-babel.js:1:344)
+	at Object.parse (/home/neeraj/.vscode-oss/extensions/esbenp.prettier-vscode-5.1.3/node_modules/prettier/parser-babel.js:1:262513)
+	at Object.parse (/home/neeraj/.vscode-oss/extensions/esbenp.prettier-vscode-5.1.3/node_modules/prettier/index.js:11370:19)
+	at formatRange (/home/neeraj/.vscode-oss/extensions/esbenp.prettier-vscode-5.1.3/node_modules/prettier/index.js:14871:25)
+	at format (/home/neeraj/.vscode-oss/extensions/esbenp.prettier-vscode-5.1.3/node_modules/prettier/index.js:15019:49)
+	at formatWithCursor (/home/neeraj/.vscode-oss/extensions/esbenp.prettier-vscode-5.1.3/node_modules/prettier/index.js:15035:12)
+	at /home/neeraj/.vscode-oss/extensions/esbenp.prettier-vscode-5.1.3/node_modules/prettier/index.js:51620:12
+	at Object.format (/home/neeraj/.vscode-oss/extensions/esbenp.prettier-vscode-5.1.3/node_modules/prettier/index.js:51640:12)
+	at t.default.<anonymous> (/home/neeraj/.vscode-oss/extensions/esbenp.prettier-vscode-5.1.3/dist/extension.js:1:58387)
+	at Generator.next (<anonymous>)
+	at s (/home/neeraj/.vscode-oss/extensions/esbenp.prettier-vscode-5.1.3/dist/extension.js:1:53305)
+["INFO" - 12:42:41 PM] Formatting completed in 66.294752ms.

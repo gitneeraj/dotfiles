@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "/home/neeraj/Work/brandine"
+		},
+		{
+			"path": "/home/neeraj/Work/cletus"
+		},
+		{
+			"path": "/home/neeraj/Work/goofball"
+		},
+		{
+			"path": "/home/neeraj/Work/mojo-the-helper-monkey"
+		},
+		{
+			"path": "/home/neeraj/Work/todd"
+		},
+		{
+			"path": "../../../../Personal/opensource/expirements"
+		},
+		{
+			"path": "../../../../Downloads/proxy-ext"
+		}
+	],
+	"settings": {
+		"xresourcesTheme.xresourcesPath": "~/.config/X11/xresources"
+	}
+}

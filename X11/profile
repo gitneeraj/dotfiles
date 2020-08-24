@@ -17,3 +17,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 export DENO_INSTALL="$XDG_CONFIG_HOME"/deno
 export PATH="$DENO_INSTALL/bin:$PATH"
 export PF_ASCII=artix
+export PYLINTHOME="$XDG_CACHE_HOME"/pylint
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export VSCODE_PORTABLE="$XDG_DATA_HOME"/vscode
+export PLUGIN_CACHE_DIR="$XDG_CACHE_HOME"/terraform

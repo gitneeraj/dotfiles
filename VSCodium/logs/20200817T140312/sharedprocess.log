@@ -1,0 +1,8 @@
+[2020-08-17 14:03:16.133] [sharedprocess] [info] main {"machineId":"94f186d31841a2c02de970aecc969b3d098c2f943792d9aa37c44b41ee080c49","windowId":2}
+[2020-08-17 14:03:34.065] [sharedprocess] [info] Installing extension: vscode-icons-team.vscode-icons
+[2020-08-17 14:03:36.045] [sharedprocess] [info] Downloaded extension: vscode-icons-team.vscode-icons /home/neeraj/.config/VSCodium/CachedExtensionVSIXs/vscode-icons-team.vscode-icons-10.2.0
+[2020-08-17 14:03:36.766] [sharedprocess] [info] Extracted extension to /home/neeraj/.vscode-oss/extensions/.vscode-icons-team.vscode-icons-10.2.0: vscode-icons-team.vscode-icons
+[2020-08-17 14:03:36.766] [sharedprocess] [info] Renamed to /home/neeraj/.vscode-oss/extensions/vscode-icons-team.vscode-icons-10.2.0
+[2020-08-17 14:03:36.767] [sharedprocess] [info] Installation completed. vscode-icons-team.vscode-icons
+[2020-08-17 14:03:36.927] [sharedprocess] [info] Extensions installed successfully: vscode-icons-team.vscode-icons
+[2020-08-17 14:03:56.141] [sharedprocess] [info] Starting to clean up unused language packs.

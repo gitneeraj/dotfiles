@@ -1,0 +1,8 @@
+[2020-08-24 12:01:48.109] [sharedprocess] [info] main {"machineId":"94f186d31841a2c02de970aecc969b3d098c2f943792d9aa37c44b41ee080c49","windowId":2}
+[2020-08-24 12:02:28.123] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-08-24 12:25:20.973] [sharedprocess] [info] Installing extension: hashicorp.terraform
+[2020-08-24 12:25:22.060] [sharedprocess] [info] Downloaded extension: hashicorp.terraform /home/neeraj/.config/VSCodium/CachedExtensionVSIXs/hashicorp.terraform-2.1.1
+[2020-08-24 12:25:22.665] [sharedprocess] [info] Extracted extension to /home/neeraj/.vscode-oss/extensions/.hashicorp.terraform-2.1.1: hashicorp.terraform
+[2020-08-24 12:25:22.665] [sharedprocess] [info] Renamed to /home/neeraj/.vscode-oss/extensions/hashicorp.terraform-2.1.1
+[2020-08-24 12:25:22.665] [sharedprocess] [info] Installation completed. hashicorp.terraform
+[2020-08-24 12:25:22.722] [sharedprocess] [info] Extensions installed successfully: hashicorp.terraform

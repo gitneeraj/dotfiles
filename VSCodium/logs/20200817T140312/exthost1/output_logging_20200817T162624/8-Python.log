@@ -1,0 +1,111 @@
+User belongs to experiment group 'ShowPlayIcon - start'
+User belongs to experiment group 'ShowExtensionSurveyPrompt - control'
+User belongs to experiment group 'DebugAdapterFactory - experiment'
+User belongs to experiment group 'PtvsdWheels37 - experiment'
+User belongs to experiment group 'UseTerminalToGetActivatedEnvVars - control'
+User belongs to experiment group 'LocalZMQKernel - control'
+User belongs to experiment group 'CollectLSRequestTiming - control'
+User belongs to experiment group 'CollectNodeLSRequestTiming - experiment'
+User belongs to experiment group 'EnableIPyWidgets - experiment'
+User belongs to experiment group 'RunByLine - control'
+User belongs to experiment group 'CustomEditorSupport - control'
+> pyenv root
+> python3.7 ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python3.6 ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python2 ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python3 ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> conda --version
+> conda info --json
+> python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> pyenv root
+Error 2020-08-17 16:26:28: Failed to check if file needs to be fixed [EntryNotFound (FileSystemError): Unable to read file '/home/neeraj/.config/Code/User/settings.json' (EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/neeraj/.config/Code/User/settings.json')
+	at _handleError (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:672:249)
+	at processTicksAndRejections (internal/process/task_queues.js:85:5)
+	at async v.readText (/home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/out/client/extension.js:1:500698)
+	at async p.doesFileNeedToBeFixed (/home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/out/client/extension.js:48:951975)
+	at async /home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/out/client/extension.js:48:951102
+	at async Promise.all (index 0)
+	at async p.getFilesToBeFixed (/home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/out/client/extension.js:48:951048)
+	at async p.updateTestSettings (/home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/out/client/extension.js:48:950675)] {
+  code: 'FileNotFound',
+  name: 'EntryNotFound (FileSystemError)'
+}
+Error 2020-08-17 16:26:28: Failed to check if file needs to be fixed [EntryNotFound (FileSystemError): Unable to read file '/home/neeraj/Work/cletus/.vscode/settings.json' (EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/neeraj/Work/cletus/.vscode/settings.json')
+	at _handleError (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:672:249)
+	at processTicksAndRejections (internal/process/task_queues.js:85:5)
+	at async v.readText (/home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/out/client/extension.js:1:500698)
+	at async p.doesFileNeedToBeFixed (/home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/out/client/extension.js:48:951975)
+	at async /home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/out/client/extension.js:48:951102
+	at async Promise.all (index 1)
+	at async p.getFilesToBeFixed (/home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/out/client/extension.js:48:951048)
+	at async p.updateTestSettings (/home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/out/client/extension.js:48:950675)] {
+  code: 'FileNotFound',
+  name: 'EntryNotFound (FileSystemError)'
+}
+Starting Jedi Python language engine.
+> pyenv root
+> pyenv root
+> conda --version
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py pylint --disable=all --enable=F,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,unused-wildcard-import,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode,E0001,E0011,E0012,E0100,E0101,E0102,E0103,E0104,E0105,E0107,E0108,E0110,E0111,E0112,E0113,E0114,E0115,E0116,E0117,E0118,E0202,E0203,E0211,E0213,E0236,E0237,E0238,E0239,E0240,E0241,E0301,E0302,E0303,E0401,E0402,E0601,E0602,E0603,E0604,E0611,E0632,E0633,E0701,E0702,E0703,E0704,E0710,E0711,E0712,E1003,E1101,E1102,E1111,E1120,E1121,E1123,E1124,E1125,E1126,E1127,E1128,E1129,E1130,E1131,E1132,E1133,E1134,E1135,E1136,E1137,E1138,E1139,E1200,E1201,E1205,E1206,E1300,E1301,E1302,E1303,E1304,E1305,E1306,E1310,E1700,E1701 --msg-template='{line},{column},{category},{symbol}:{msg}' --reports=n --output-format=text ~/Work/cletus/cletus/splinter.py
+cwd: ~/Work/cletus
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py pylint --disable=all --enable=F,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,unused-wildcard-import,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode,E0001,E0011,E0012,E0100,E0101,E0102,E0103,E0104,E0105,E0107,E0108,E0110,E0111,E0112,E0113,E0114,E0115,E0116,E0117,E0118,E0202,E0203,E0211,E0213,E0236,E0237,E0238,E0239,E0240,E0241,E0301,E0302,E0303,E0401,E0402,E0601,E0602,E0603,E0604,E0611,E0632,E0633,E0701,E0702,E0703,E0704,E0710,E0711,E0712,E1003,E1101,E1102,E1111,E1120,E1121,E1123,E1124,E1125,E1126,E1127,E1128,E1129,E1130,E1131,E1132,E1133,E1134,E1135,E1136,E1137,E1138,E1139,E1200,E1201,E1205,E1206,E1300,E1301,E1302,E1303,E1304,E1305,E1306,E1310,E1700,E1701 --msg-template='{line},{column},{category},{symbol}:{msg}' --reports=n --output-format=text ~/Work/cletus/cletus/splinter.py
+cwd: ~/Work/cletus
+Python interpreter path: ~/Work/brandine/venv/bin/python3
+Python interpreter path: /usr/bin/python
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.prefix)"
+cwd: ~/Work/cletus
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.prefix)"
+cwd: ~/Work/cletus
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+cwd: ~/Work/cletus
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+cwd: ~/Work/cletus
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+cwd: ~/Work/cletus
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+cwd: ~/Work/cletus
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py site --user-site
+cwd: ~/Work/cletus
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py site --user-site
+cwd: ~/Work/cletus
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/completion.py
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/pyvsc-run-isolated.py ~/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/completion.py
+Error 2020-08-17 16:26:32: stderr jediProxy Error (stderr) /home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/completion.py:586: DeprecationWarning: Deprecated since version 0.16.0. Use Script(...).get_names instead.
+  jedi.api.names(
+
+##########Linting Output - pylint##########
+************* Module cletus.splinter
+18,0,error,import-error:Unable to import 'jaraco.functools'
+19,0,error,import-error:Unable to import 'selenium'
+20,0,error,import-error:Unable to import 'splinter'
+21,0,error,import-error:Unable to import 'PIL'
+22,0,error,import-error:Unable to import 'jaraco'
+23,0,error,import-error:Unable to import 'jaraco.functools'
+24,0,error,import-error:Unable to import 'jaraco.text'
+25,0,error,import-error:Unable to import 'selenium.common.exceptions'
+26,0,error,import-error:Unable to import 'selenium.webdriver.chrome.options'
+
+------------------------------------------------------------------
+Your code has been rated at 7.02/10 (previous run: 7.02/10, +0.00)
+
+Error 2020-08-17 16:26:36: stderr jediProxy Error (stderr) /home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/completion.py:594: DeprecationWarning: Providing the line is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+/home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/completion.py:594: DeprecationWarning: Providing the column is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+/home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/completion.py:594: DeprecationWarning: Deprecated since version 0.17.0. Use the project API instead, which means Script(project=Project(dir, sys_path=sys_path)) instead.
+  script = jedi.Script(
+/home/neeraj/.vscode-oss/extensions/ms-python.python-2020.8.101144/pythonFiles/completion.py:628: DeprecationWarning: Deprecated since version 0.16.0. Use Script(...).infer instead.
+  script.goto_definitions(), request["id"]
+
+Python interpreter path: ~/Work/brandine/venv/bin/python3
+Python interpreter path: /usr/bin/python
+Python interpreter path: ~/Work/brandine/venv/bin/python3
+Python interpreter path: /usr/bin/python
+Python interpreter path: ~/Work/brandine/venv/bin/python3

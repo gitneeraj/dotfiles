@@ -1,0 +1,19 @@
+[2020-08-24 12:02:15.098] [renderer1] [warning] UNRESPONSIVE extension host, 'esbenp.prettier-vscode' took 46% of 1830.018ms, saved PROFILE here: '/tmp/exthost-cbcbd1.cpuprofile' [{"id":"dbaeumer.vscode-eslint","total":12164,"percentage":1},{"id":"eamodio.gitlens","total":497,"percentage":0},{"id":"esbenp.prettier-vscode","total":839024,"percentage":46},{"id":"gc","total":19350,"percentage":1},{"id":"JackVandergriff.xresources-theme","total":140317,"percentage":8},{"id":"program","total":21881,"percentage":1},{"id":"self","total":652123,"percentage":36},{"id":"vscode-icons-team.vscode-icons","total":11501,"percentage":1},{"id":"vscode.git","total":13106,"percentage":1},{"id":"vscode.github-authentication","total":131,"percentage":0},{"id":"vscode.merge-conflict","total":944,"percentage":0},{"id":"vscode.microsoft-authentication","total":164,"percentage":0},{"id":"vscode.npm","total":42527,"percentage":2},{"id":"vscode.typescript-language-features","total":28305,"percentage":2},{"id":"zhuangtongfa.material-theme","total":47876,"percentage":3}]
+[2020-08-24 12:25:35.258] [renderer1] [error] getaddrinfo EAI_AGAIN releases.hashicorp.com: Error: getaddrinfo EAI_AGAIN releases.hashicorp.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+[2020-08-24 12:26:26.049] [renderer1] [error] Unable to write to User Settings because terraform.languageServer.external is not a registered configuration.: Error: Unable to write to User Settings because terraform.languageServer.external is not a registered configuration.
+    at D.reject (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5544:245)
+    at D.resolveAndValidate (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5547:116)
+    at D.doWriteConfiguration (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5541:414)
+    at Object.factory (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5541:190)
+    at u.consume (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:130:421)
+    at file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:130:236
+    at new Promise (<anonymous>)
+    at u.queue (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:130:160)
+    at D.writeConfiguration (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5541:175)
+    at C.writeConfigurationValue (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5569:356)
+    at file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5557:594
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+[2020-08-24 12:36:56.967] [renderer1] [error] ENOENT: no such file or directory, scandir '/home/neeraj/.vscode-oss/extensions': Error: ENOENT: no such file or directory, scandir '/home/neeraj/.vscode-oss/extensions'
+    at file:///usr/share/vscodium-bin/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:568:697
+    at async Promise.all (index 0)

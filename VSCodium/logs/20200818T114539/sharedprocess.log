@@ -1,0 +1,7 @@
+[2020-08-18 11:45:51.530] [sharedprocess] [info] main {"machineId":"94f186d31841a2c02de970aecc969b3d098c2f943792d9aa37c44b41ee080c49","windowId":2}
+[2020-08-18 11:46:31.546] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-08-18 15:58:50.068] [sharedprocess] [info] Installing the extension: jackvandergriff.xresources-theme
+[2020-08-18 15:58:51.334] [sharedprocess] [info] Extracted extension to /home/neeraj/.vscode-oss/extensions/.jackvandergriff.xresources-theme-1.1.0: jackvandergriff.xresources-theme
+[2020-08-18 15:58:51.334] [sharedprocess] [info] Renamed to /home/neeraj/.vscode-oss/extensions/jackvandergriff.xresources-theme-1.1.0
+[2020-08-18 15:58:51.334] [sharedprocess] [info] Installation completed. jackvandergriff.xresources-theme
+[2020-08-18 15:58:51.418] [sharedprocess] [info] Successfully installed the extension: jackvandergriff.xresources-theme

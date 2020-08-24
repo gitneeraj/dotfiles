@@ -1,0 +1,13 @@
+[2020-08-17 13:52:48.830] [renderer1] [error] Unable to write to User Settings because terraform.languageServer.external is not a registered configuration.: Error: Unable to write to User Settings because terraform.languageServer.external is not a registered configuration.
+    at D.reject (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5544:245)
+    at D.resolveAndValidate (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5547:116)
+    at D.doWriteConfiguration (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5541:414)
+    at Object.factory (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5541:190)
+    at u.consume (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:130:421)
+    at file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:130:236
+    at new Promise (<anonymous>)
+    at u.queue (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:130:160)
+    at D.writeConfiguration (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5541:175)
+    at C.writeConfigurationValue (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5569:356)
+    at file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:5557:594
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)

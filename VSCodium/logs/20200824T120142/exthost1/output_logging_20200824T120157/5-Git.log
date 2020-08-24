@@ -1,0 +1,386 @@
+Looking for git in: git
+Using git 2.27.0 from git
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/brandine
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-857_Sort_Recent_Activity_lastest_first
+> git rev-parse --symbolic-full-name neeraj/GTD-857_Sort_Recent_Activity_lastest_first@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-857_Sort_Recent_Activity_lastest_first'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/cletus
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-852_fix_Radaris_target
+> git rev-parse --symbolic-full-name neeraj/GTD-852_fix_Radaris_target@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-852_fix_Radaris_target'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/goofball
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/mojo-the-helper-monkey
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-852_fix_Radaris_target
+> git rev-parse --symbolic-full-name neeraj/GTD-852_fix_Radaris_target@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-852_fix_Radaris_target'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Work/todd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-857_Sort_Recent_Activity_lastest_first
+> git rev-parse --symbolic-full-name neeraj/GTD-857_Sort_Recent_Activity_lastest_first@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-857_Sort_Recent_Activity_lastest_first'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/neeraj/Personal/opensource/expirements/dwm-6.2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git show --textconv :src/containers/dashboard/Overview.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/containers/dashboard/Overview.jsx
+> git cat-file -s 9915b66a8ca8727bf306aa029e7ef5e108f7aee6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :env/privacymate_test/privacymate_website/plan.sh
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/privacymate_website/plan.sh
+> git cat-file -s ede6e377edade126ba18b98114fa8250a25e8d97
+> git check-ignore -v -z --stdin
+> git show --textconv :env/privacymate_test/ecs_cluster/ecs_brandine.tf
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/ecs_brandine.tf
+> git cat-file -s 5dd0d3c57472178151fa2e42749f2648fda4f126
+> git show --textconv :src/containers/dashboard/Overview.jsx
+> git ls-files --stage -- /home/neeraj/Work/todd/src/containers/dashboard/Overview.jsx
+> git cat-file -s 9915b66a8ca8727bf306aa029e7ef5e108f7aee6
+> git check-ignore -v -z --stdin
+> git show --textconv :env/privacymate_test/ecs_cluster/ecs_brandine.tf
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/ecs_brandine.tf
+> git cat-file -s 5dd0d3c57472178151fa2e42749f2648fda4f126
+> git show --textconv :env/privacymate_test/privacymate_website/plan.sh
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/privacymate_website/plan.sh
+> git cat-file -s ede6e377edade126ba18b98114fa8250a25e8d97
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :package.json
+> git ls-files --stage -- /home/neeraj/Work/todd/package.json
+> git cat-file -s aa6a648ae2e45dbe04303c2ab863750b3507bcbd
+> git status -z -u
+> git ls-files --stage -- /home/neeraj/Work/todd/package.json
+> git symbolic-ref --short HEAD
+> git cat-file -s 320913b6379e1498e41137705fb93cb7d1cb2a34
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git show --textconv :package.json
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/neeraj/Work/todd/package.json
+> git symbolic-ref --short HEAD
+> git cat-file -s 320913b6379e1498e41137705fb93cb7d1cb2a34
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show --textconv :package.json
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/neeraj/Work/todd/package.json
+> git symbolic-ref --short HEAD
+> git cat-file -s aa6a648ae2e45dbe04303c2ab863750b3507bcbd
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show --textconv :package.json
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/neeraj/Work/todd/package.json
+> git symbolic-ref --short HEAD
+> git cat-file -s 320913b6379e1498e41137705fb93cb7d1cb2a34
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show --textconv :package.json
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :env/privacymate_test/privacymate_website/plan.sh
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/privacymate_website/plan.sh
+> git cat-file -s ede6e377edade126ba18b98114fa8250a25e8d97
+> git show --textconv :package.json
+> git ls-files --stage -- /home/neeraj/Work/todd/package.json
+> git cat-file -s 320913b6379e1498e41137705fb93cb7d1cb2a34
+> git show --textconv :env/privacymate_test/privacymate_website/plan.sh
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/privacymate_website/plan.sh
+> git cat-file -s ede6e377edade126ba18b98114fa8250a25e8d97
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :env/privacymate_test/identityguard_website/plan.sh
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/identityguard_website/plan.sh
+> git cat-file -s 7d8634ec28b8580dbe6cc34e6077066528e957fc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse v2020.44.0/package.json
+> git rev-parse --symbolic-full-name v2020.44.0/package.json@{u}
+fatal: no upstream configured for branch 'v2020.44.0/package.json'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :env/privacymate_test/privacymate_website/plan.sh
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/privacymate_website/plan.sh
+> git cat-file -s ede6e377edade126ba18b98114fa8250a25e8d97
+> git show --textconv :env/privacymate_test/identityguard_website/plan.sh
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/identityguard_website/plan.sh
+> git cat-file -s 7d8634ec28b8580dbe6cc34e6077066528e957fc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse v2020.44.0/package.json
+> git rev-parse --symbolic-full-name v2020.44.0/package.json@{u}
+fatal: no upstream configured for branch 'v2020.44.0/package.json'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :env/privacymate_test/privacymate_website/plan.sh
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/privacymate_website/plan.sh
+> git cat-file -s ede6e377edade126ba18b98114fa8250a25e8d97
+> git status -z -u
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/privacymate_website/plan.sh
+> git symbolic-ref --short HEAD
+> git cat-file -s ede6e377edade126ba18b98114fa8250a25e8d97
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show --textconv :env/privacymate_test/privacymate_website/plan.sh
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :env/privacymate_test/ecs_cluster/ecs_brandine.tf
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/ecs_brandine.tf
+> git cat-file -s 5dd0d3c57472178151fa2e42749f2648fda4f126
+> git show --textconv :env/privacymate_test/ecs_cluster/variables.tf
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/variables.tf
+> git cat-file -s 47fcd47fe3842b841a33a57d5bb0dc076e5c8000
+> git show --textconv :env/privacymate_test/ecs_cluster/variables.tf
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/variables.tf
+> git cat-file -s 47fcd47fe3842b841a33a57d5bb0dc076e5c8000
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/variables.tf
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :env/privacymate_test/ecs_cluster/secrets.auto.tfvars
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/secrets.auto.tfvars
+> git show --textconv :env/privacymate_test/ecs_cluster/variables.tf
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/variables.tf
+> git cat-file -s 47fcd47fe3842b841a33a57d5bb0dc076e5c8000
+> git show --textconv :env/privacymate_test/ecs_cluster/ecs_brandine.tf
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/ecs_brandine.tf
+> git cat-file -s 5dd0d3c57472178151fa2e42749f2648fda4f126
+> git show --textconv :env/privacymate_test/ecs_cluster/variables.tf
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/variables.tf
+> git cat-file -s 47fcd47fe3842b841a33a57d5bb0dc076e5c8000
+> git show --textconv :env/privacymate_test/ecs_cluster/variables.tf
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/variables.tf
+> git cat-file -s 47fcd47fe3842b841a33a57d5bb0dc076e5c8000
+> git show --textconv :env/privacymate_test/ecs_cluster/ecs_brandine.tf
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/ecs_brandine.tf
+> git cat-file -s 5dd0d3c57472178151fa2e42749f2648fda4f126
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse neeraj/GTD-857_Sort_Recent_Activity_lastest_first
+> git rev-parse --symbolic-full-name neeraj/GTD-857_Sort_Recent_Activity_lastest_first@{u}
+fatal: no upstream configured for branch 'neeraj/GTD-857_Sort_Recent_Activity_lastest_first'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :env/privacymate_test/ecs_cluster/secrets.auto.tfvars
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/secrets.auto.tfvars
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :env/privacymate_test/ecs_cluster/ecs_cletus.tf
+> git ls-files --stage -- /home/neeraj/Work/mojo-the-helper-monkey/env/privacymate_test/ecs_cluster/ecs_cletus.tf
+> git cat-file -s a3dbaec5a5f5930970b8b293dcf7a219d4be3d8a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template

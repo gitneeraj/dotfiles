@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=dwm
+Comment=dwm window manager
+Exec=/home/neeraj/.config/X11/start.sh
+Type=Application
+

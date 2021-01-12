@@ -71,7 +71,7 @@ font-4 = Font Awesome 5 Brands,Font Awesome 5 Brands Regular:style=Regular:pixel
 modules-left = bspwm i3 dwm
 modules-center = xwindow
 ; backlight-acpi pulseaudio 
-modules-right = filesystem memory cpu wlan vpn-networkmanager-status eth battery temperature date powermenu
+modules-right = filesystem filesystem-home memory cpu wlan vpn-networkmanager-status eth battery temperature date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -123,6 +123,24 @@ ramp-capacity-0-foreground = ${colors.red}
 ramp-capacity-1 = 
 ramp-capacity-1-foreground = ${colors.orange}
 ramp-capacity-2 = 
+ramp-capacity-2-foreground = ${colors.green}
+
+label-mounted = %percentage_used%% (%free%)
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground-alt}
+
+[module/filesystem-home]
+type = internal/fs
+interval = 3600
+
+mount-0 = /home
+format-mounted = <ramp-capacity> <label-mounted>
+
+ramp-capacity-0 = 
+ramp-capacity-0-foreground = ${colors.red}
+ramp-capacity-1 = 
+ramp-capacity-1-foreground = ${colors.orange}
+ramp-capacity-2 = 
 ramp-capacity-2-foreground = ${colors.green}
 
 label-mounted = %percentage_used%% (%free%)

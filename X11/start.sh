@@ -12,6 +12,9 @@ exec nitrogen --restore &
 # Start network manager system tray
 exec nm-applet &
 
+# Start bluetooth manager
+exec blueman-applet &
+
 # Start battery notification service
 exec $XDG_CONFIG_HOME/dunst/notifications/bat0.sh &
 

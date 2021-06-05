@@ -37,3 +37,7 @@ Bitwarden
 chromium
 Mailspring
 sonic-visualiser
+nvim/autoload/plugged/
+obs-studio/
+vlc
+coc/

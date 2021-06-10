@@ -15,8 +15,8 @@ cnoremap kj <Esc>
 cnoremap jk <Esc>
 
 " Easy CAPS
-inoremap <c-u> <ESC>viwUi
-nnoremap <c-u> viwU<Esc>
+inoremap <M-u> <ESC>viwUi
+nnoremap <M-u> viwU<Esc>
 
 " TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
@@ -25,7 +25,7 @@ nnoremap <S-TAB> :bprevious<CR>
 " close active buffer
 nnoremap <Leader>x :bd<CR>
 
-" Toggle search highlight
+" Toggle search highlight  
 nnoremap <Leader>hl :set hlsearch!<CR>
 
 " Alternate way to save

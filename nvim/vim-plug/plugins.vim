@@ -6,8 +6,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
-    " Color Theme Dracula
+    " Color Theme onedark
     Plug 'joshdick/onedark.vim'
+    " Color Theme Dracula
+    Plug 'dracula/vim', { 'as': 'dracula' } 
     " Stable version of COC
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Airline
@@ -27,5 +29,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vim-which-key'
     " Multi select cursor
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}
-
+    
 call plug#end()

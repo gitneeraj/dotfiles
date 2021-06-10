@@ -24,6 +24,9 @@ exec $XDG_CONFIG_HOME/polybar/launch.sh &
 # export variables required for dwm
 export AWT_TOOLKIT=MToolkit
 
+# re-map CAPSLOCk to ESC
+setxkbmap -option caps:escape &
+
 # Start dwm
 while true; do
     dwm 2> $XDG_CONFIG_HOME/dwm/dwm.log

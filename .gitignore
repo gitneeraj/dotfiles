@@ -38,6 +38,7 @@ chromium
 Mailspring
 sonic-visualiser
 nvim/autoload/plugged/
+nvim/session/
 obs-studio/
 vlc
 coc/

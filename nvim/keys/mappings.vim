@@ -11,15 +11,22 @@ nnoremap <M-l>    :vertical resize +2<CR>
 " I hate escape more than anything else
 inoremap jk <Esc>
 inoremap kj <Esc>
+cnoremap kj <Esc>
+cnoremap jk <Esc>
 
 " Easy CAPS
-inoremap <c-u> <ESC>viwUi
-nnoremap <c-u> viwU<Esc>
+inoremap <M-u> <ESC>viwUi
+nnoremap <M-u> viwU<Esc>
 
 " TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
+" close active buffer
+nnoremap <Leader>x :bp<cr>:bd #<cr>
+
+" Toggle search highlight  
+nnoremap <Leader>hl :set hlsearch!<CR>
 
 " Alternate way to save
 nnoremap <C-s> :w<CR>

@@ -24,6 +24,7 @@ nnoremap <TAB> :bnext<CR>
 nnoremap <S-TAB> :bprevious<CR>
 " close active buffer
 nnoremap <Leader>x :bp<cr>:bd #<cr>
+nnoremap <Leader>x :bd<CR>
 
 " Toggle search highlight  
 nnoremap <Leader>hl :set hlsearch!<CR>

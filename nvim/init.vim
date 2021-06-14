@@ -1,10 +1,9 @@
-source $HOME/.config/nvim/vim-plug/plugins.vim
-source $HOME/.config/nvim/general/settings.vim
-source $HOME/.config/nvim/keys/mappings.vim
-" source $HOME/.config/nvim/themes/dracula.vim
-source $HOME/.config/nvim/themes/onedark.vim
-source $HOME/.config/nvim/plug-config/coc.vim
-source $HOME/.config/nvim/themes/airline.vim
-source $HOME/.config/nvim/plug-config/start-screen.vim
-source $HOME/.config/nvim/keys/which-key.vim
-lua require'plug-colorizer'
+source $HOME/Personal/opensource/dotfiles/nvim/vim-plug/plugins.vim
+source $HOME/Personal/opensource/dotfiles/nvim/general/settings.vim
+source $HOME/Personal/opensource/dotfiles/nvim/keys/mappings.vim
+" source $HOME/Personal/opensource/dotfiles/nvim/themes/dracula.vim
+source $HOME/Personal/opensource/dotfiles/nvim/themes/onedark.vim
+source $HOME/Personal/opensource/dotfiles/nvim/plug-config/coc.vim
+source $HOME/Personal/opensource/dotfiles/nvim/themes/airline.vim
+source $HOME/Personal/opensource/dotfiles/nvim/plug-config/start-screen.vim
+source $HOME/Personal/opensource/dotfiles/nvim/keys/which-key.vim

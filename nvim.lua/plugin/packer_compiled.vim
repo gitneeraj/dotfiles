@@ -47,8 +47,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/neeraj/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/neeraj/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/neeraj/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/neeraj/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/neeraj/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/Users/Neeraj.a/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/Neeraj.a/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/Neeraj.a/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/Neeraj.a/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/Neeraj.a/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -72,83 +72,91 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["auto-pairs"] = {
+    loaded = true,
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/auto-pairs"
+  },
+  ["efm-langserver"] = {
+    loaded = true,
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/efm-langserver"
+  },
   ["friendly-snippets"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/friendly-snippets"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/friendly-snippets"
   },
   ["galaxyline.nvim"] = {
     config = { "\27LJ\2\n-\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\18nv-galaxyline\frequire\0" },
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
   },
   kommentary = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/kommentary"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/kommentary"
   },
   ["lsp-rooter.nvim"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/lsp-rooter.nvim"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/lsp-rooter.nvim"
   },
   ["lsp_signature.nvim"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim"
   },
   ["lspsaga.nvim"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
   },
   ["nvim-bufferline.lua"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua"
   },
   ["nvim-compe"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-compe"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/nvim-compe"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
   ["nvim-lspinstall"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-lspinstall"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/nvim-lspinstall"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
   },
   ["nvim-ts-autotag"] = {
     loaded = false,
     needs_bufread = false,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/opt/nvim-ts-autotag"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/opt/nvim-ts-autotag"
   },
   ["nvim-ts-rainbow"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["onedark.nvim"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/onedark.nvim"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/onedark.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/packer.nvim"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/packer.nvim"
   },
   ["vim-vsnip"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/vim-vsnip"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/vim-vsnip"
   },
   ["vscode-javascript"] = {
     loaded = true,
-    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/vscode-javascript"
+    path = "/Users/Neeraj.a/.local/share/nvim/site/pack/packer/start/vscode-javascript"
   }
 }
 

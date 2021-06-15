@@ -68,11 +68,8 @@ nvim_lsp.tsserver.setup {
 }
 
 local filetypes = {
-    typescript = "eslint",
-    typescriptreact = "eslint",
     javascript = "eslint",
     javascriptreact = "eslint",
-    lua = "luafmt",
 }
 
 local linters = {
@@ -100,10 +97,6 @@ local formatters = {
         command = "./node_modules/.bin/prettier", 
         args = {"--stdin-filepath", "%filepath"},
         rootPatterns = {".prettierrc.js", ".prettierrc.json", ".prettierrc", "package.json"},
-    },
-    luafmt = {
-        command = "luafmt",
-        args = {"--indent-count 2", "--line-width 120", "--stdin"}
     }
 }
 
@@ -112,16 +105,33 @@ local formatFiletypes = {
     typescriptreact = "prettier",
     javascript = "prettier",
     javascriptreact = "prettier",
-    lua = "luafmt",
 }
 
-nvim_lsp.diagnosticls.setup {
+local prettier = {formatCommand = "./node_modules/.bin/prettier --stdin-filepath ${INPUT}", formatStdin = true}
+
+local eslint = {
+    lintCommand = "./node_modules/.bin/eslint -f unix --stdin --stdin-filename ${INPUT}",
+    lintIgnoreExitCode = true,
+    lintStdin = true,
+    lintFormats = {"%f:%l:%c: %m"},
+    formatCommand = "./node_modules/.bin/eslint --fix-to-stdout --stdin --stdin-filename=${INPUT}",
+    rootMarkers = {"package.json", ".eslintrc.js", ".eslintrc.json"},
+    formatStdin = true
+}
+
+nvim_lsp.efm.setup {
+    init_options = {documentFormatting = true, codeAction = false},
     on_attach = on_attach,
-    filetypes = vim.tbl_keys(filetypes),
-    init_options = {
-        filetypes = filetypes,
-        linters = linters,
-        formatters = formatters,
-        formatFiletypes = formatFiletypes
+    filetypes = {"lua", "python", "javascriptreact", "javascript", "typescript","typescriptreact","sh", "html", "css", "json", "yaml", "markdown", "vue"},
+    settings = {
+        rootMarkers = {".git/"},
+        languages = {
+            html = {prettier},
+            css = {prettier},
+            json = {prettier},
+            yaml = {prettier},
+            javascriptreact = {prettier, eslint},
+            javascript = {prettier, eslint},
+        }
     }
 }

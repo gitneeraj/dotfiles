@@ -60,7 +60,21 @@ local on_attach = function(client, bufnr)
     end
 end
 
-nvim_lsp.tsserver.setup {
+nvim_lsp.typescript.setup {
+    on_attach = function(client)
+        client.resolved_capabilities.document_formatting = false
+        on_attach(client)
+    end
+}
+
+nvim_lsp.svelte.setup {
+    on_attach = function(client)
+        client.resolved_capabilities.document_formatting = false
+        on_attach(client)
+    end
+}
+
+nvim_lsp.html.setup {
     on_attach = function(client)
         client.resolved_capabilities.document_formatting = false
         on_attach(client)
@@ -73,6 +87,8 @@ local filetypes = {
     javascript = "eslint",
     javascriptreact = "eslint",
     lua = "luafmt",
+    svelte = "eslint",
+    html = "",
 }
 
 local linters = {
@@ -112,6 +128,8 @@ local formatFiletypes = {
     typescriptreact = "prettier",
     javascript = "prettier",
     javascriptreact = "prettier",
+    svelte = "prettier",
+    html = "prettier",
     lua = "luafmt",
 }
 

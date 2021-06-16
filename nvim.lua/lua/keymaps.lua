@@ -18,10 +18,10 @@ vim.api.nvim_set_keymap('i', 'kj', '<ESC>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('i', 'jj', '<ESC>', {noremap = true, silent = true})
 
 -- Tab switch, close, move buffers
-vim.api.nvim_set_keymap('n', '<TAB>', ':bnext<CR>', {noremap = true, silent = true})
-vim.api.nvim_set_keymap('n', '<S-TAB>', ':bprevious<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<TAB>', ':bnext!<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<S-TAB>', ':bprevious!<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<Leader>x', ':bp<CR>:bd #<CR>', {noremap = true, silent = true})
-vim.api.nvim_set_keymap('n', '<Leader>n', ':BufferLineMoveNext<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Leader>n', ':BufferLineMoveext<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<Leader>p', ':BufferLineMovePrev<CR>', {noremap = true, silent = true})
 
 -- Move selected line / block of text in visual mode
@@ -36,8 +36,5 @@ vim.cmd('inoremap <expr> <c-k> (\"\\<C-p>\")')
 vim.cmd('nnoremap <S-c> :q!<CR>')
 
 -- Alternate way to save
-vim.cmd('nnoremap <C-s> :w<CR>')
-vim.cmd('inoremap <C-s> <ESC> :w<CR>')
-
-vim.api.nvim_set_keymap('n', '<Leader>e', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
-vim.api.nvim_set_keymap('n', '<Leader>r', ':NvimTreeRefresh<CR>', {noremap = true, silent = true})
+vim.cmd('nnoremap <C-s> :w!<CR>')
+vim.cmd('inoremap <C-s> <ESC> :w!<CR>')

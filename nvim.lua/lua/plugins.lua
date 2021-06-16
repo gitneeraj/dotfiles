@@ -59,6 +59,15 @@ return require('packer').startup(function(use)
     -- auto pairs
     use {'jiangmiao/auto-pairs'}
 
-    use {'mattn/efm-langserver'}
+    -- EFM langserver for linters
+    -- use {'mattn/efm-langserver'}
+
+    -- Telescope
+
+    use {
+      'nvim-telescope/telescope.nvim',
+      requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+    }
+
 end)
 

@@ -18,8 +18,7 @@ _G.lsp_organize_imports = function()
     local params = {
         command = "_typescript.organizeImports",
         arguments = {vim.api.nvim_buf_get_name(0)},
-        title = ""
-    }
+        title = "" }
     vim.lsp.buf.execute_command(params)
 end
 
@@ -60,25 +59,21 @@ local on_attach = function(client, bufnr)
     end
 end
 
+local disableFormat = function(client)
+    client.resolved_capabilities.document_formatting = false
+    on_attach(client)
+end
+
 nvim_lsp.typescript.setup {
-    on_attach = function(client)
-        client.resolved_capabilities.document_formatting = false
-        on_attach(client)
-    end
+    on_attach = disableFormat
 }
 
 nvim_lsp.svelte.setup {
-    on_attach = function(client)
-        client.resolved_capabilities.document_formatting = false
-        on_attach(client)
-    end
+    on_attach = disableFormat
 }
 
 nvim_lsp.html.setup {
-    on_attach = function(client)
-        client.resolved_capabilities.document_formatting = false
-        on_attach(client)
-    end
+    on_attach = disableFormat
 }
 
 local filetypes = {

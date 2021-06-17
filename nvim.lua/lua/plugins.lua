@@ -63,11 +63,13 @@ return require('packer').startup(function(use)
     -- use {'mattn/efm-langserver'}
 
     -- Telescope
-
     use {
       'nvim-telescope/telescope.nvim',
       requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
     }
+
+    -- Which key
+    use {"folke/which-key.nvim"}
 
 end)
 

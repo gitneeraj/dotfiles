@@ -31,6 +31,7 @@ return require('packer').startup(function(use)
 
     -- TreeSitter
     use {"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"}
+    use {"nvim-treesitter/playground"}
     use {"windwp/nvim-ts-autotag", opt = true}
 
     -- Status line
@@ -70,6 +71,9 @@ return require('packer').startup(function(use)
 
     -- Which key
     use {"folke/which-key.nvim"}
+
+    -- Colorizer
+    use {'norcalli/nvim-colorizer.lua'}
 
 end)
 

@@ -53,7 +53,7 @@ require('telescope').setup{
 local M = {}
 
 M.project_files = function()
-    local _, ret, stderr = utils.get_os_command_output({
+    local _, ret, _ = utils.get_os_command_output({
         'git', 'rev-parse', '--is-inside-work-tree'
     })
     local gopts = {}
@@ -71,9 +71,9 @@ function M.find_files()
         prompt_title = 'Find in DotFiles',
         shorten_path = false,
         search_dirs = {
-            '~/.config', '~/Personal/opensource/dotfiles'
+            '~/.config', '~/Personal/opensource'
         },
-        cwd = '~/Personal/opensource/dotfiles',
+        cwd = '~/Personal/opensource',
         width = .25,
         layout_strategy = 'horizontal',
         layout_config = {preview_width = 0.65}

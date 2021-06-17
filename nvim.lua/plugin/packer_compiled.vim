@@ -105,6 +105,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua"
   },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
+  },
   ["nvim-compe"] = {
     loaded = true,
     path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-compe"

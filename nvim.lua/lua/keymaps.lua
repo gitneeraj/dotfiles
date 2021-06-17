@@ -38,3 +38,6 @@ vim.cmd('nnoremap <S-c> :q!<CR>')
 -- Alternate way to save
 vim.cmd('nnoremap <C-s> :w!<CR>')
 vim.cmd('inoremap <C-s> <ESC> :w!<CR>')
+
+-- Toggle highlighting
+vim.api.nvim_set_keymap('n', '<Leader>h', ':set hlsearch!<CR>', {noremap = true, silent = true})

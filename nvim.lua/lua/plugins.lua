@@ -75,5 +75,8 @@ return require('packer').startup(function(use)
     -- Colorizer
     use {'norcalli/nvim-colorizer.lua'}
 
+    -- Multi line edit
+    use {'mg979/vim-visual-multi'}
+
 end)
 

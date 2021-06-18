@@ -18,5 +18,18 @@ return require('packer').startup(function(use)
     -- File Explorer
     use 'kyazdani42/nvim-tree.lua'
 
+    -- LSP config
+    use 'neovim/nvim-lspconfig'
+
+    -- Support for installing language servers via :LspInstall etc
+    use 'kabouzeid/nvim-lspinstall'
+
+    -- Autocomplete
+    use 'hrsh7th/nvim-compe'
+
+    -- TreeSitter
+    use {"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"}
+    use {"nvim-treesitter/playground"}
+
 end)
 

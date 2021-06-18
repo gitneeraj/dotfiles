@@ -6,3 +6,6 @@ require('settings')
 
 -- Modules/Plugins
 require('modules.file-explorer')
+require('modules.LSPInstall')
+require('modules.autocompletion')
+require('modules.treesitter')

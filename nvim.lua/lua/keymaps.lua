@@ -42,3 +42,6 @@ vim.cmd('inoremap <C-s> <ESC> :w!<CR>')
 
 -- Toggle highlighting
 vim.api.nvim_set_keymap('n', '<Leader>h', ':set hlsearch!<CR>', {noremap = true, silent = true})
+
+-- LSP info
+vim.api.nvim_set_keymap('n', '<Leader>li', ':LspInfo<CR>', {noremap = true, silent = true})

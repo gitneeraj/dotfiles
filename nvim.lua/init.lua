@@ -1,15 +1,8 @@
+-- Basic setup
 require('plugins')
-require('themes')
+require('modules.themes.onedark')
 require('keymaps')
 require('settings')
-require('nv-compe')
-require('nv-lspInstall')
-require('nv-treesitter')
-require('nv-galaxyline')
-require('nv-bufferline')
-require('nv-lspsaga')
-require('nv-efm')
-require('nv-explorer')
-require('nv-telescope')
-require('nv-whichkey')
-require('nv-colorizer')
+
+-- Modules/Plugins
+require('modules.file-explorer')

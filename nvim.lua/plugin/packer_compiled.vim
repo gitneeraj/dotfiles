@@ -72,6 +72,30 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["auto-pairs"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/auto-pairs"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/friendly-snippets"
+  },
+  kommentary = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/kommentary"
+  },
+  ["lsp_signature.nvim"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim"
+  },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
+  },
+  ["nvim-bufferline.lua"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua"
+  },
   ["nvim-compe"] = {
     loaded = true,
     path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-compe"
@@ -92,6 +116,14 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
   },
+  ["nvim-ts-rainbow"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
+  },
   ["onedark.nvim"] = {
     loaded = true,
     path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/onedark.nvim"
@@ -103,6 +135,30 @@ _G.packer_plugins = {
   playground = {
     loaded = true,
     path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/playground"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+  },
+  ["popup.nvim"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/popup.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["vim-visual-multi"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/vim-visual-multi"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/vim-vsnip"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/home/neeraj/.local/share/nvim/site/pack/packer/start/which-key.nvim"
   }
 }
 

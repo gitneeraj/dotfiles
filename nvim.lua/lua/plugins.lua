@@ -27,9 +27,43 @@ return require('packer').startup(function(use)
     -- Autocomplete
     use 'hrsh7th/nvim-compe'
 
+    -- Snippets for code completion
+    use {'hrsh7th/vim-vsnip'}
+    use {'rafamadriz/friendly-snippets'}
+
     -- TreeSitter
     use {"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"}
     use {"nvim-treesitter/playground"}
+
+    -- auto pairs
+    use {'jiangmiao/auto-pairs'}
+
+    -- Rainbow colorized brackets
+    use { 'p00f/nvim-ts-rainbow' }
+
+    -- easy commenting
+    use 'b3nj5m1n/kommentary'
+
+    -- Multi line edit
+    use {'mg979/vim-visual-multi'}
+
+    -- Telescope
+    use {
+      'nvim-telescope/telescope.nvim',
+      requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+    }
+
+    -- Which key
+    use {"folke/which-key.nvim"}
+
+    -- lsp saga for better UI for docs and hover
+    use { 'glepnir/lspsaga.nvim' }
+
+    -- signature help for methods/functions
+    use { 'ray-x/lsp_signature.nvim' }
+
+    -- Tabline/bufferline
+    use {'akinsho/nvim-bufferline.lua', requires = 'kyazdani42/nvim-web-devicons'}
 
 end)
 

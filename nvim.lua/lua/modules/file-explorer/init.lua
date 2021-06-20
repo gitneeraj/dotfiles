@@ -24,3 +24,4 @@ vim.g.nvim_tree_update_cwd = 0 -- 0 by default, will update the tree cwd when ch
 vim.api.nvim_set_keymap('n', '<Leader>e', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<Leader>r', ':NvimTreeRefresh<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<Leader>f', ':NvimTreeFindFile<CR>', {noremap = true, silent = true})
+vim.cmd('highlight NvimTreeIndentMarker guifg=#4F4F4F')

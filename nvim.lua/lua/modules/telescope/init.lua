@@ -97,9 +97,9 @@ local themes = require('telescope.themes')
 vim.api.nvim_set_keymap('n', '<Leader>ff', ':lua builtin.find_files(themes.get_ivy())<CR>', {noremap = true, silent = true}) ]]
 
 vim.api.nvim_set_keymap('n', '<Leader>ff', ':Telescope find_files<CR>', {noremap = true, silent = true})
-vim.api.nvim_set_keymap('n', '<Leader>fd', ':lua require(\'telescope-search\').find_files()<CR>', {noremap = true, silent = true})
-vim.api.nvim_set_keymap('n', '<Leader>fb', ':lua require(\'telescope-search\').file_explorer()<CR>', {noremap = true, silent = true})
-vim.api.nvim_set_keymap('n', '<Leader>fp', ':lua require(\'telescope-search\').project_files()<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Leader>fd', ':lua require(\'modules.telescope\').find_files()<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Leader>fb', ':lua require(\'modules.telescope\').file_explorer()<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Leader>fp', ':lua require(\'modules.telescope\').project_files()<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<Leader>fg', ':Telescope live_grep<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<Leader>fh', ':Telescope help_tags<CR>', {noremap = true, silent = true})
 

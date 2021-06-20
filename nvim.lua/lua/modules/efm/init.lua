@@ -1,13 +1,14 @@
 local lsp_config = require('lspconfig')
-local on_attach = require('modules.efm_langserver.on_attach')
-local eslint = require('modules.efm_langserver.eslint')
-local prettier = require('modules.efm_langserver.prettier')
+local on_attach = require('modules.efm.on_attach')
+local eslint = require('modules.efm.eslint')
+local prettier = require('modules.efm.prettier')
 
 local disableFormat = function(client)
     client.resolved_capabilities.document_formatting = false
     on_attach(client)
 end
 
+-- format on save
 local format_async = function(err, _, result, _, bufnr)
     if err ~= nil or result == nil then return end
     if not vim.api.nvim_buf_get_option(bufnr, "modified") then

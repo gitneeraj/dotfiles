@@ -65,5 +65,12 @@ return require('packer').startup(function(use)
     -- Tabline/bufferline
     use {'akinsho/nvim-bufferline.lua', requires = 'kyazdani42/nvim-web-devicons'}
 
+    -- Status line
+    use {'glepnir/galaxyline.nvim',
+        branch = 'main',
+        config = function() require'modules.galaxyline' end,
+        requires = {'kyazdani42/nvim-web-devicons', opt = true}
+    }
+
 end)
 

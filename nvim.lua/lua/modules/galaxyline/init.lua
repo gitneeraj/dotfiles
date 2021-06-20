@@ -1,6 +1,7 @@
 local gl = require('galaxyline')
 local colors = {
-    bg = '#292D38',
+    -- bg = '#292D38',
+    bg = '#393F4A',
     yellow = '#DCDCAA',
     dark_yellow = '#D7BA7D',
     cyan = '#4EC9B0',
@@ -10,7 +11,7 @@ local colors = {
     orange = '#FF8800',
     purple = '#C586C0',
     magenta = '#D16D9E',
-    grey = '#858585',
+    grey = '#E1E1E1',
     blue = '#569CD6',
     vivid_blue = '#4FC1FF',
     light_blue = '#9CDCFE',

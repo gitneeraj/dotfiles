@@ -18,6 +18,14 @@ vim.api.nvim_set_keymap('i', 'kj', '<ESC>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('i', 'jj', '<ESC>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('i', 'kk', '<ESC>', {noremap = true, silent = true})
 
+-- easy movement when in Insert mode
+--[[ vim.api.nvim_set_keymap('i', '<C-h>', '<left>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('i', '<C-l>', '<right>', {noremap = true, silent = true}) ]]
+
+-- Move selected line / block of text in visual mode
+vim.api.nvim_set_keymap('x', 'K', ':move \'<-2<CR>gv-gv', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('x', 'J', ':move \'>+1<CR>gv-gv', {noremap = true, silent = true})
+
 -- Tab switch, close, move buffers
 vim.api.nvim_set_keymap('n', '<TAB>', ':bnext!<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<S-TAB>', ':bprevious!<CR>', {noremap = true, silent = true})

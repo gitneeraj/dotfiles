@@ -80,39 +80,16 @@ table.insert(gls.left, {
     }
 })
 
-table.insert(gls.left, {
-    DiffAdd = {
-        provider = 'DiffAdd',
-        condition = condition.hide_in_width,
-        icon = '  ',
-        highlight = {colors.green, colors.bg}
-    }
-})
-table.insert(gls.left, {
-    DiffModified = {
-        provider = 'DiffModified',
-        condition = condition.hide_in_width,
-        icon = ' 柳',
-        highlight = {colors.blue, colors.bg}
-    }
-})
-table.insert(gls.left, {
-    DiffRemove = {
-        provider = 'DiffRemove',
-        condition = condition.hide_in_width,
-        icon = '  ',
-        highlight = {colors.red, colors.bg}
-    }
-})
+table.insert(gls.left, {DiffAdd = {provider = 'DiffAdd', condition = condition.hide_in_width, icon = '  ', highlight = {colors.green, colors.bg}}})
+table.insert(gls.left,
+             {DiffModified = {provider = 'DiffModified', condition = condition.hide_in_width, icon = ' 柳', highlight = {colors.blue, colors.bg}}})
+table.insert(gls.left,
+             {DiffRemove = {provider = 'DiffRemove', condition = condition.hide_in_width, icon = '  ', highlight = {colors.red, colors.bg}}})
 
-table.insert(gls.right, {
-    DiagnosticError = {provider = 'DiagnosticError', icon = '  ', highlight = {colors.error_red, colors.bg}}
-})
+table.insert(gls.right, {DiagnosticError = {provider = 'DiagnosticError', icon = '  ', highlight = {colors.error_red, colors.bg}}})
 table.insert(gls.right, {DiagnosticWarn = {provider = 'DiagnosticWarn', icon = '  ', highlight = {colors.orange, colors.bg}}})
 
-table.insert(gls.right, {
-    DiagnosticHint = {provider = 'DiagnosticHint', icon = '  ', highlight = {colors.vivid_blue, colors.bg}}
-})
+table.insert(gls.right, {DiagnosticHint = {provider = 'DiagnosticHint', icon = '  ', highlight = {colors.vivid_blue, colors.bg}}})
 
 table.insert(gls.right, {DiagnosticInfo = {provider = 'DiagnosticInfo', icon = '  ', highlight = {colors.info_yellow, colors.bg}}})
 
@@ -142,22 +119,11 @@ table.insert(gls.right, {
 })
 
 table.insert(gls.right, {
-    LineInfo = {
-        provider = 'LineColumn',
-        separator = '  ',
-        separator_highlight = {'NONE', colors.bg},
-        highlight = {colors.grey, colors.bg}
-    }
+    LineInfo = {provider = 'LineColumn', separator = '  ', separator_highlight = {'NONE', colors.bg}, highlight = {colors.grey, colors.bg}}
 })
 
-table.insert(gls.right, {
-    PerCent = {
-        provider = 'LinePercent',
-        separator = ' ',
-        separator_highlight = {'NONE', colors.bg},
-        highlight = {colors.grey, colors.bg}
-    }
-})
+table.insert(gls.right,
+             {PerCent = {provider = 'LinePercent', separator = ' ', separator_highlight = {'NONE', colors.bg}, highlight = {colors.grey, colors.bg}}})
 
 table.insert(gls.right, {
     Tabstop = {
@@ -203,14 +169,7 @@ table.insert(gls.right, {
 })
 
 table.insert(gls.short_line_left, {
-    BufferType = {
-        provider = 'FileTypeName',
-        separator = ' ',
-        separator_highlight = {'NONE', colors.bg},
-        highlight = {colors.grey, colors.bg}
-    }
+    BufferType = {provider = 'FileTypeName', separator = ' ', separator_highlight = {'NONE', colors.bg}, highlight = {colors.grey, colors.bg}}
 })
 
-table.insert(gls.short_line_left, {
-    SFileName = {provider = 'SFileName', condition = condition.buffer_not_empty, highlight = {colors.grey, colors.bg}}
-})
+table.insert(gls.short_line_left, {SFileName = {provider = 'SFileName', condition = condition.buffer_not_empty, highlight = {colors.grey, colors.bg}}})

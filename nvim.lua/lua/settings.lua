@@ -1,5 +1,5 @@
 vim.cmd('filetype plugin indent on')
-vim.cmd('set formatoptions-=c')      --- " Stop newline continuation of comments
+vim.cmd('set formatoptions-=c') --- " Stop newline continuation of comments
 vim.cmd('set iskeyword+=-') -- treat dash separated words as a word text object"
 vim.cmd('set shortmess+=c') -- Don't pass messages to |ins-completion-menu|.
 vim.cmd('set inccommand=split') -- Make substitution work in realtime
@@ -28,5 +28,5 @@ vim.wo.signcolumn = "yes" -- Always show the signcolumn, otherwise it would shif
 vim.o.updatetime = 300 -- Faster completion
 vim.o.clipboard = "unnamedplus" -- Copy paste between vim and everything else
 vim.cmd('filetype plugin on') -- filetype detection
-vim.cmd('set scrolloff=999')  -- set cursor to middle when scrolling
+vim.cmd('set scrolloff=999') -- set cursor to middle when scrolling
 vim.o.completeopt = "menuone,noselect"

@@ -1,20 +1,20 @@
 local execute = vim.api.nvim_command
 local fn = vim.fn
 
-local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
+local install_path = fn.stdpath('data') .. '/site/pack/packer/start/packer.nvim'
 
 if fn.empty(fn.glob(install_path)) > 0 then
-  fn.system({'git', 'clone', 'https://github.com/wbthomason/packer.nvim', install_path})
-  execute 'packadd packer.nvim'
+    fn.system({'git', 'clone', 'https://github.com/wbthomason/packer.nvim', install_path})
+    execute 'packadd packer.nvim'
 end
 
 return require('packer').startup(function(use)
 
-	-- Packer can manage itself
-	use 'wbthomason/packer.nvim'
+    -- Packer can manage itself
+    use 'wbthomason/packer.nvim'
 
-	-- onedark color theme
-	use 'navarasu/onedark.nvim'
+    -- onedark color theme
+    use 'navarasu/onedark.nvim'
 
     -- File Explorer
     use 'kyazdani42/nvim-tree.lua'
@@ -40,7 +40,7 @@ return require('packer').startup(function(use)
     use {'jiangmiao/auto-pairs'}
 
     -- Rainbow colorized brackets
-    use { 'p00f/nvim-ts-rainbow' }
+    use {'p00f/nvim-ts-rainbow'}
 
     -- easy commenting
     use 'b3nj5m1n/kommentary'
@@ -49,27 +49,27 @@ return require('packer').startup(function(use)
     use {'mg979/vim-visual-multi'}
 
     -- Telescope
-    use {
-      'nvim-telescope/telescope.nvim',
-      requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
-    }
+    use {'nvim-telescope/telescope.nvim', requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}}
 
     -- Which key
     use {"folke/which-key.nvim"}
 
     -- lsp saga for better UI for docs and hover
-    use { 'glepnir/lspsaga.nvim' }
+    use {'glepnir/lspsaga.nvim'}
 
     -- signature help for methods/functions
-    use { 'ray-x/lsp_signature.nvim' }
+    use {'ray-x/lsp_signature.nvim'}
 
     -- Tabline/bufferline
     use {'akinsho/nvim-bufferline.lua', requires = 'kyazdani42/nvim-web-devicons'}
 
     -- Status line
-    use {'glepnir/galaxyline.nvim',
+    use {
+        'glepnir/galaxyline.nvim',
         branch = 'main',
-        config = function() require'modules.galaxyline' end,
+        config = function()
+            require 'modules.galaxyline'
+        end,
         requires = {'kyazdani42/nvim-web-devicons', opt = true}
     }
 

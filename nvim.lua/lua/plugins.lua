@@ -85,5 +85,8 @@ return require('packer').startup(function(use)
         end
     }
 
+    -- smooth scroll
+    -- use 'karb94/neoscroll.nvim'
+
 end)
 

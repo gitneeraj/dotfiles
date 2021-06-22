@@ -33,7 +33,8 @@ return require('packer').startup(function(use)
     use {'rafamadriz/friendly-snippets'}
 
     -- TreeSitter
-    use {"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"}
+    use {"nvim-treesitter/nvim-treesitter", run = ":TS{Update"}
+    use {"nvim-treesitter/nvim-tree-docs", requires = "Olical/aniseed"}
     use {"nvim-treesitter/playground"}
 
     -- auto pairs
@@ -86,7 +87,7 @@ return require('packer').startup(function(use)
     }
 
     -- smooth scroll
-    -- use 'karb94/neoscroll.nvim'
+    use 'karb94/neoscroll.nvim'
 
 end)
 

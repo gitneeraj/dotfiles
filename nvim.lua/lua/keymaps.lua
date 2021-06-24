@@ -23,10 +23,6 @@ vim.api.nvim_set_keymap('i', 'kk', '<ESC>', opts)
 --[[ vim.api.nvim_set_keymap('i', '<C-h>', '<left>', opts)
 vim.api.nvim_set_keymap('i', '<C-l>', '<right>', opts) ]]
 
--- Move selected line / block of text in visual mode
-vim.api.nvim_set_keymap('x', 'K', ':move \'<-2<CR>gv-gv', opts)
-vim.api.nvim_set_keymap('x', 'J', ':move \'>+1<CR>gv-gv', opts)
-
 -- Tab switch, close, move buffers
 vim.api.nvim_set_keymap('n', '<TAB>', ':bnext!<CR>', opts)
 vim.api.nvim_set_keymap('n', '<S-TAB>', ':bprevious!<CR>', opts)

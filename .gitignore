@@ -39,7 +39,7 @@ Mailspring
 sonic-visualiser
 nvim/autoload/plugged/
 nvim/session/
-nvim.lua/plugin/
+nvim.lua/plugin/*
 obs-studio/
 vlc
 coc/

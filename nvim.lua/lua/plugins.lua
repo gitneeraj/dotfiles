@@ -89,5 +89,8 @@ return require('packer').startup(function(use)
     -- smooth scroll
     use 'karb94/neoscroll.nvim'
 
+    -- startify
+    use {'mhinz/vim-startify'}
+
 end)
 

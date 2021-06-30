@@ -45,7 +45,9 @@ local efm_languages = {
 }
 
 lsp_config.efm.setup({
-    filetypes = {'javascript', 'javascriptreact', 'javascript.jsx', 'typescript', 'typescriptreact', 'typescript.tsx', 'svelte', 'lua'},
+    filetypes = {
+        'javascript', 'javascriptreact', 'javascript.jsx', 'typescript', 'typescriptreact', 'typescript.tsx', 'svelte', 'lua', 'json', 'html'
+    },
     on_attach = on_attach,
     root_dir = lsp_config.util.root_pattern(unpack(efm_root_markers)),
     init_options = {documentFormatting = true},
@@ -55,3 +57,8 @@ lsp_config.efm.setup({
 lsp_config.typescript.setup {on_attach = disableFormat}
 
 lsp_config.svelte.setup {on_attach = disableFormat}
+
+lsp_config.json.setup {on_attach = disableFormat}
+
+lsp_config.html.setup {on_attach = disableFormat}
+

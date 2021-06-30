@@ -26,13 +26,19 @@ vim.api.nvim_set_keymap('i', '<C-l>', '<right>', opts) ]]
 -- Tab switch, close, move buffers
 vim.api.nvim_set_keymap('n', '<TAB>', ':bnext!<CR>', opts)
 vim.api.nvim_set_keymap('n', '<S-TAB>', ':bprevious!<CR>', opts)
-vim.api.nvim_set_keymap('n', '<Leader>x', ':bp<CR>:bd #<CR>', opts)
-vim.api.nvim_set_keymap('n', '<Leader>n', ':BufferLineMoveext<CR>', opts)
-vim.api.nvim_set_keymap('n', '<Leader>p', ':BufferLineMovePrev<CR>', opts)
+vim.api.nvim_set_keymap('n', '<Leader>bx', ':bp<CR>:bd #<CR>', opts)
+vim.api.nvim_set_keymap('n', '<Leader>bn', ':BufferLineMoveNext<CR>', opts)
+vim.api.nvim_set_keymap('n', '<Leader>bp', ':BufferLineMovePrev<CR>', opts)
 
 -- Move selected line / block of text in visual mode
 vim.api.nvim_set_keymap('x', 'K', ':move \'<-2<CR>gv-gv', opts)
 vim.api.nvim_set_keymap('x', 'J', ':move \'>+1<CR>gv-gv', opts)
+
+-- Resize vertical splits
+vim.api.nvim_set_keymap('n', '<Leader>v=', ':vertical resize +5<CR>', opts)
+vim.api.nvim_set_keymap('n', '<Leader>v-', ':vertical resize -5<CR>', opts)
+
+vim.api.nvim_set_keymap('n', '<Leader>gd', ':lua vim.lsp.buf.definition()<CR>', opts)
 
 -- Better nav for omnicomplete
 vim.cmd('inoremap <expr> <c-j> (\"\\<C-n>\")')

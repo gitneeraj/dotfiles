@@ -30,3 +30,9 @@ vim.o.clipboard = "unnamedplus" -- Copy paste between vim and everything else
 vim.cmd('filetype plugin on') -- filetype detection
 vim.cmd('set scrolloff=999') -- set cursor to middle when scrolling
 vim.o.completeopt = "menuone,noselect"
+
+-- global settings for indent-blankline.nvim
+vim.g.indent_blankline_char = '│'
+vim.g.indent_blankline_show_current_context = true
+vim.api.nvim_command("highlight IndentBlanklineChar guifg=#4F4F4F gui=nocombine")
+vim.g.indent_blankline_filetype_exclude = {'startify'}

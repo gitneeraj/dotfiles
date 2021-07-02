@@ -3,7 +3,6 @@ local utils = require('telescope.utils')
 require('telescope').setup {
     defaults = {
         vimgrep_arguments = {'rg', '--color=never', '--no-heading', '--with-filename', '--line-number', '--column', '--smart-case'},
-        prompt_position = "top",
         prompt_prefix = "> ",
         selection_caret = "> ",
         entry_prefix = "  ",
@@ -11,16 +10,12 @@ require('telescope').setup {
         selection_strategy = "reset",
         sorting_strategy = "ascending",
         layout_strategy = "horizontal",
-        layout_defaults = {horizontal = {mirror = false}, vertical = {mirror = false}},
         file_sorter = require'telescope.sorters'.get_fuzzy_file,
         file_ignore_patterns = {'node_modules'},
         generic_sorter = require'telescope.sorters'.get_generic_fuzzy_sorter,
         shorten_path = true,
         winblend = 0,
-        width = 0.75,
-        preview_cutoff = 120,
-        results_height = 1,
-        results_width = 0.8,
+        layout_config = {prompt_position = "top", preview_cutoff = 120},
         border = {},
         color_devicons = true,
         use_less = true,
@@ -56,21 +51,16 @@ function M.find_files()
         shorten_path = false,
         search_dirs = {'~/.config', '~/Personal/opensource'},
         cwd = '~/Personal/opensource',
-        width = .25,
-        layout_strategy = 'horizontal',
-        layout_config = {preview_width = 0.65}
+        layout_strategy = 'horizontal'
     }
 end
 
+function M.live_grep()
+    require('telescope.builtin').live_grep {prompt_title = 'This is custom live grep'}
+end
+
 function M.file_explorer()
-    require('telescope.builtin').file_browser {
-        prompt_title = ' File Browser',
-        shorten_path = false,
-        cwd = '~',
-        width = .25,
-        layout_strategy = 'horizontal',
-        layout_config = {preview_width = 0.65}
-    }
+    require('telescope.builtin').file_browser {prompt_title = ' File Browser', shorten_path = false, cwd = '~', layout_strategy = 'horizontal'}
 end
 
 --[[ local builtin = require('telescope.builtin')
@@ -82,6 +72,7 @@ vim.api.nvim_set_keymap('n', '<Leader>fd', ':lua require(\'modules.telescope\').
 vim.api.nvim_set_keymap('n', '<Leader>fb', ':lua require(\'modules.telescope\').file_explorer()<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<Leader>fp', ':lua require(\'modules.telescope\').project_files()<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<Leader>fg', ':Telescope live_grep<CR>', {noremap = true, silent = true})
+-- vim.api.nvim_set_keymap('n', '<Leader>fg', ':lua require(\'modules.telescope\').live_grep()<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<Leader>fs', ':Telescope grep_string<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<Leader>fh', ':Telescope help_tags<CR>', {noremap = true, silent = true})
 

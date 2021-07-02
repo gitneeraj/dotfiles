@@ -44,6 +44,7 @@ return require('packer').startup(function(use)
     use {'p00f/nvim-ts-rainbow'}
 
     -- easy commenting
+    use 'JoosepAlviste/nvim-ts-context-commentstring'
     use 'b3nj5m1n/kommentary'
 
     -- Multi line edit
@@ -61,7 +62,7 @@ return require('packer').startup(function(use)
     -- signature help for methods/functions
     use {'ray-x/lsp_signature.nvim'}
 
-    -- Tabline/bufferline
+    -- tabline/bufferline
     use {'akinsho/nvim-bufferline.lua', requires = 'kyazdani42/nvim-web-devicons'}
 
     -- Status line
@@ -91,6 +92,20 @@ return require('packer').startup(function(use)
 
     -- startify
     use {'mhinz/vim-startify'}
+
+    -- surround. useful to wrap any text, para, code with pairs
+    use {
+        "blackCauldron7/surround.nvim",
+        config = function()
+            require"surround".setup {}
+        end
+    }
+
+    -- indent markers for spaces and tabs
+    use {"lukas-reineke/indent-blankline.nvim", branch = "lua"}
+
+    -- git blame like gitlens from vscode
+    use {"f-person/git-blame.nvim"}
 
 end)
 

@@ -102,7 +102,7 @@ return require('packer').startup(function(use)
     }
 
     -- indent markers for spaces and tabs
-    use {"lukas-reineke/indent-blankline.nvim", branch = "lua"}
+    use {"lukas-reineke/indent-blankline.nvim"}
 
     -- git blame like gitlens from vscode
     use {"f-person/git-blame.nvim"}

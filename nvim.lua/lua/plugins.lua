@@ -107,5 +107,12 @@ return require('packer').startup(function(use)
     -- git blame like gitlens from vscode
     use {"f-person/git-blame.nvim"}
 
+    -- rooter to follow you
+    use {
+        "ahmedkhalf/lsp-rooter.nvim",
+        config = function()
+            require("lsp-rooter").setup {}
+        end
+    }
 end)
 

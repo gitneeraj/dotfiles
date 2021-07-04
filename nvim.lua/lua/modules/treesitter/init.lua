@@ -1,11 +1,11 @@
 require'nvim-treesitter.configs'.setup {
     ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
-    ignore_install = {"haskell"},
+    ignore_install = {"haskell"}, -- broken since 21 June 2021
     highlight = {
         enable = true -- false will disable the whole extension
     },
 
-    --[[ incremental_selection = {
+    incremental_selection = {
         enable = true,
         keymaps = {
             init_selection = "<leader>gnn",
@@ -13,7 +13,7 @@ require'nvim-treesitter.configs'.setup {
             scope_incremental = "<leader>gne",
             node_decremental = "<leader>gnt"
         }
-    }, ]]
+    },
 
     indent = {enable = true},
 
@@ -23,7 +23,8 @@ require'nvim-treesitter.configs'.setup {
         enable_autocmd = false,
         enable = true,
         config = {
-            javascript = {__default = '// %s', jsx_element = '{/* %s */}', jsx_fragment = '{/* %s */}', jsx_attribute = '// %s', comment = '// %s'}
+            javascript = {__default = '// %s', jsx_element = '{/* %s */}', jsx_fragment = '{/* %s */}', jsx_attribute = '// %s', comment = '// %s'},
+            svelte = '<!-- %s -->'
         }
     }
 

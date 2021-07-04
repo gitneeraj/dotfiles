@@ -32,7 +32,11 @@ vim.cmd('set scrolloff=999') -- set cursor to middle when scrolling
 vim.o.completeopt = "menuone,noselect"
 
 -- global settings for indent-blankline.nvim
+vim.g.indent_blankline_char_list = {'│', '┆', '┊'}
+-- vim.g.indent_blankline_space_char = '·'
+vim.g.indent_blankline_use_treesitter = true
+vim.g.indent_blankline_show_end_of_line = true
 vim.g.indent_blankline_char = '│'
 vim.g.indent_blankline_show_current_context = true
-vim.api.nvim_command("highlight IndentBlanklineChar guifg=#4F4F4F gui=nocombine")
+-- vim.api.nvim_command("highlight IndentBlanklineChar guifg=#454545 gui=nocombine")
 vim.g.indent_blankline_filetype_exclude = {'startify'}

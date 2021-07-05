@@ -114,5 +114,7 @@ return require('packer').startup(function(use)
             require("lsp-rooter").setup {}
         end
     }
+
+    use 'folke/lsp-colors.nvim'
 end)
 

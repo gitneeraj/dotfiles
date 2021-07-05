@@ -41,5 +41,5 @@ vim.g.indent_blankline_char = '│'
 vim.g.indent_blankline_show_current_context = true
 -- vim.api.nvim_command("highlight IndentBlanklineChar guifg=#454545 gui=nocombine")
 vim.api.nvim_command("highlight IndentBlanklineContextChar guifg=#CCC gui=nocombine")
-vim.g.indent_blankline_filetype_exclude = {'startify'}
+vim.g.indent_blankline_filetype_exclude = {'startify', 'help', 'packer'}
 vim.g.indent_blankline_context_patterns = {'class', 'function', 'method', '^if', 'element'}

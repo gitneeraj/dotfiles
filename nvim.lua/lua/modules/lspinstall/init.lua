@@ -1,6 +1,7 @@
 -- keymaps
 local on_attach = function(client, bufnr)
 
+    -- LSP signature help
     require'lsp_signature'.on_attach(client)
 
     local function buf_set_keymap(...)

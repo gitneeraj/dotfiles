@@ -26,7 +26,7 @@ require'nvim-treesitter.configs'.setup {
             javascript = {__default = '// %s', jsx_element = '{/* %s */}', jsx_fragment = '{/* %s */}', jsx_attribute = '// %s', comment = '// %s'},
             svelte = '<!-- %s -->'
         }
-    }
+    },
 
-    -- tree_docs = {enable = true}
+    tree_docs = {enable = true}
 }

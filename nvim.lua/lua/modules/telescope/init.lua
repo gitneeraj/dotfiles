@@ -13,7 +13,7 @@ require('telescope').setup {
         file_sorter = require'telescope.sorters'.get_fuzzy_file,
         file_ignore_patterns = {'node_modules'},
         generic_sorter = require'telescope.sorters'.get_generic_fuzzy_sorter,
-        shorten_path = true,
+        path_display = {'shorten'},
         winblend = 0,
         layout_config = {prompt_position = "top", preview_cutoff = 120},
         border = {},
@@ -48,7 +48,7 @@ end
 function M.find_files()
     require('telescope.builtin').find_files {
         prompt_title = 'Find in DotFiles',
-        shorten_path = false,
+        path_display = {'shorten'},
         search_dirs = {'~/.config', '~/Personal/opensource'},
         cwd = '~/Personal/opensource',
         layout_strategy = 'horizontal'
@@ -60,7 +60,12 @@ function M.live_grep()
 end
 
 function M.file_explorer()
-    require('telescope.builtin').file_browser {prompt_title = ' File Browser', shorten_path = false, cwd = '~', layout_strategy = 'horizontal'}
+    require('telescope.builtin').file_browser {
+        prompt_title = ' File Browser',
+        path_display = {'shorten'},
+        cwd = '~',
+        layout_strategy = 'horizontal'
+    }
 end
 
 --[[ local builtin = require('telescope.builtin')

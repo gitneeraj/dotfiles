@@ -116,5 +116,6 @@ return require('packer').startup(function(use)
     }
 
     use 'folke/lsp-colors.nvim'
+    use 'wfxr/minimap.vim'
 end)
 

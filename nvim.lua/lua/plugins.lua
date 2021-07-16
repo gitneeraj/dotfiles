@@ -116,6 +116,11 @@ return require('packer').startup(function(use)
     }
 
     use 'folke/lsp-colors.nvim'
+
+    -- minimap that appears on the right side. Required code-minimap
+    -- brew install code-minimap or check your package manager
     use 'wfxr/minimap.vim'
+
+    use 'tpope/vim-sleuth'
 end)
 

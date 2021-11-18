@@ -17,7 +17,7 @@ return require('packer').startup(function(use)
     use 'navarasu/onedark.nvim'
 
     -- File Explorer
-    use 'kyazdani42/nvim-tree.lua'
+    use {'kyazdani42/nvim-tree.lua', requires = 'kyazdani42/nvim-web-devicons'} -- use 'kyazdani42/nvim-tree.lua'
 
     -- LSP config
     use 'neovim/nvim-lspconfig'

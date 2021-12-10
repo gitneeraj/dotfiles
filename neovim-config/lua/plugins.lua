@@ -36,6 +36,10 @@ local packer = require('packer').startup(function(use)
   -- show recent files on empty nvim command
   use 'mhinz/vim-startify'
 
+  use {
+    "ray-x/lsp_signature.nvim",
+  }
+  
   -- lsp config
   use {
     'neovim/nvim-lspconfig',
@@ -78,6 +82,16 @@ local packer = require('packer').startup(function(use)
 
   -- show indentation levels
   use 'Yggdroot/indentLine'
+
+  -- rooter to follow you
+  use {
+    "ahmedkhalf/lsp-rooter.nvim",
+    config = function()
+        require("lsp-rooter").setup {}
+    end
+}
+
+use 'tpope/vim-sleuth'
 
   -- this will automatically install listed dependencies
   -- only the first time NeoVim is opened, because that's when Packer gets installed

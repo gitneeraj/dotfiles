@@ -47,7 +47,17 @@ local packer = require('packer').startup(function(use)
   }
 
   -- for LSP autocompletion
-  use 'hrsh7th/nvim-compe'
+  use 'neovim/nvim-lspconfig'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/cmp-path'
+  use 'hrsh7th/cmp-cmdline'
+  use 'hrsh7th/nvim-cmp'
+  use 'L3MON4D3/LuaSnip'
+  use 'saadparwaiz1/cmp_luasnip'
+
+  use 'onsails/lspkind-nvim'
+
 
   -- TODO: prettify telescope vim, make it use regex & shorten the window
   -- telescope - searching / navigation
@@ -78,7 +88,7 @@ local packer = require('packer').startup(function(use)
   use 'folke/lsp-colors.nvim'
 
   -- better LSP UI (for code actions, rename etc.)
-  use 'glepnir/lspsaga.nvim'
+  use 'tami5/lspsaga.nvim'
 
   -- show indentation levels
   use 'Yggdroot/indentLine'
@@ -101,7 +111,7 @@ use 'tpope/vim-sleuth'
 end)
 
 -- plugin specific configs go here
-require('plugin-config/nvim-compe')
+require('plugin-config/nvim-cmp')
 require('plugin-config/telescope')
 require('plugin-config/nvim-tree')
 require('plugin-config/nvim-treesitter')

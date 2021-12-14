@@ -2,7 +2,7 @@ local opts = {silent = true, noremap = true}
 vim.api.nvim_set_keymap("n", "<leader>xx", "<cmd>LspTroubleToggle<cr>", opts)
 require('trouble').setup{
     icons = true, -- use dev-icons for filenames
-    mode = "document", -- "workspace" or "document"
+    mode = "document_diagnostics",
     action_keys = { -- key mappings for actions in the trouble list
         close = "q", -- close the list
         cancel = {"ć", "Ć"}, -- cancel the preview and get back to your last window / buffer / cursor
@@ -22,5 +22,5 @@ require('trouble').setup{
     auto_close = false, -- automatically close the list when you have no diagnostics
     auto_preview = true, -- automatically preview the location of the diagnostic. <esc> to close preview and go back
     auto_fold = false, -- automatically fold a file trouble list at creation
-    use_lsp_diagnostic_signs = true -- enabling this will use the signs defined in your lsp client
+    use_diagnostic_signs = true -- enabling this will use the signs defined in your lsp client
 }

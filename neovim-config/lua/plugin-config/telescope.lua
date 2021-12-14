@@ -2,6 +2,11 @@
 local opts = { silent = true, noremap = true }
 vim.api.nvim_set_keymap('n', '<Leader>ff', "<Cmd>lua require'telescope.builtin'.find_files()<CR>", {silent=false, noremap=true})
 vim.api.nvim_set_keymap('n', '<Leader>fg', "<Cmd>lua require'telescope.builtin'.live_grep()<CR>", opts)
+vim.api.nvim_set_keymap('n', '<Leader>fs', "<Cmd>lua require'telescope.builtin'.grep_string()<CR>", opts)
+vim.api.nvim_set_keymap('n', '<Leader>ft', "<Cmd>lua require'telescope.builtin'.file_browser()<CR>", opts)
+vim.api.nvim_set_keymap('n', '<Leader>fo', "<Cmd>lua require'telescope.builtin'.oldfiles()<CR>", opts)
+vim.api.nvim_set_keymap('n', '<Leader>gc', "<Cmd>lua require'telescope.builtin'.git_commits()<CR>", opts)
+vim.api.nvim_set_keymap('n', '<Leader>gb', "<Cmd>lua require'telescope.builtin'.git_branches()<CR>", opts)
 vim.api.nvim_set_keymap('n', '<Leader>fb', "<Cmd>lua require'telescope.builtin'.buffers()<CR>", opts)
 vim.api.nvim_set_keymap('n', '<Leader>fh', "<Cmd>lua require'telescope.builtin'.help_tags()<CR>", opts)
 
@@ -17,12 +22,9 @@ require('telescope').setup {
         initial_mode = 'insert', -- start in insert mode
         selection_strategy = 'reset', -- what happens to selection when list changes
         sorting_strategy = 'ascending', -- start with most important search on top
-        layout_strategy = 'vertical', -- vertical layout
+        layout_strategy = 'horizontal', -- vertical layout
         layout_config = {
-            vertical = {
-                mirror = true, -- windows should be in this order from top to bottom: search, results, preview
-                preview_height = 0.5 -- preview window takes 0.5 of the total window height
-            }
+            prompt_position = 'top'
         },
         file_sorter = require'telescope.sorters'.get_fuzzy_file,
         file_ignore_patterns = {'node_modules/.*'}, -- never search in node_modules/ dir

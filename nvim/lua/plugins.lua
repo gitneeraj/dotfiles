@@ -39,7 +39,7 @@ local packer = require('packer').startup(function(use)
   use {
     "ray-x/lsp_signature.nvim",
   }
-  
+
   -- lsp config
   use {
     'neovim/nvim-lspconfig',
@@ -57,6 +57,7 @@ local packer = require('packer').startup(function(use)
   use 'saadparwaiz1/cmp_luasnip'
 
   use 'onsails/lspkind-nvim'
+  use 'windwp/nvim-autopairs'
 
 
   -- TODO: prettify telescope vim, make it use regex & shorten the window
@@ -99,10 +100,16 @@ local packer = require('packer').startup(function(use)
     config = function()
         require("lsp-rooter").setup {}
     end
-}
+  }
 
-use 'tpope/vim-sleuth'
-
+  use 'tpope/vim-sleuth'
+  use {
+    'numToStr/Comment.nvim',
+    requires = 'JoosepAlviste/nvim-ts-context-commentstring'
+  }
+  use {
+    "folke/which-key.nvim",
+  }
   -- this will automatically install listed dependencies
   -- only the first time NeoVim is opened, because that's when Packer gets installed
   if packerBootstrap then
@@ -112,16 +119,18 @@ end)
 
 -- plugin specific configs go here
 require('plugin-config/nvim-cmp')
-require('plugin-config/telescope')
-require('plugin-config/nvim-tree')
+require('plugin-config/telescope-conf')
+require('plugin-config/nvim-tree-conf')
 require('plugin-config/nvim-treesitter')
 require('plugin-config/barbar')
-require('plugin-config/lsp-colors')
+require('plugin-config/lsp-colors-conf')
 require('plugin-config/lsp-trouble')
-require('plugin-config/lspsaga')
-require('plugin-config/galaxyline')
-require('plugin-config/gitsigns')
+require('plugin-config/lspsaga-conf')
+require('plugin-config/galaxyline-conf')
+require('plugin-config/gitsigns-conf')
 require('plugin-config/indent-guide-lines')
+require('plugin-config.comment')
+require('plugin-config.whichkey')
 -- require('plugin-config/efm')
 
 return packer

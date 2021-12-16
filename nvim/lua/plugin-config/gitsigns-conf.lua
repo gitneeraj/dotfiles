@@ -33,3 +33,11 @@ require('gitsigns').setup {
   use_decoration_api = true,
   use_internal_diff = true,  -- If luajit is present
 }
+
+-- Change current blame color to light grey
+vim.cmd([[
+augroup MyColors
+autocmd!
+autocmd ColorScheme * highlight GitSignsCurrentLineBlame guifg=#5c6370
+augroup end
+]])

@@ -17,10 +17,10 @@ vim.api.nvim_set_keymap('i', 'jj', '<ESC>', opts)
 vim.api.nvim_set_keymap('i', 'kk', '<ESC>', opts)
 
 -- fast scrolling
---[[ vim.api.nvim_set_keymap('n', '<leader>n', '9j', opts)
+vim.api.nvim_set_keymap('n', '<leader>n', '9j', opts)
 vim.api.nvim_set_keymap('n', '<leader>u', '9k', opts)
 vim.api.nvim_set_keymap('v', '<leader>n', '9j', opts)
-vim.api.nvim_set_keymap('v', '<leader>u', '9k', opts) ]]
+vim.api.nvim_set_keymap('v', '<leader>u', '9k', opts)
 
 -- Mapping U to Redo.
 vim.api.nvim_set_keymap('', 'U', '<C-r>', opts)
